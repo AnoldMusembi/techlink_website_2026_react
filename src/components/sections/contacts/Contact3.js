@@ -1,8 +1,49 @@
 "use client";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import ReactNiceSelect from "@/components/shared/Inputs/ReactNiceSelect";
+import {
+	CONTACT_INQUIRY_OPTIONS,
+	submitContactForm,
+} from "@/libs/submitContactForm";
+import { useState } from "react";
 
 const Contact3 = () => {
+	const [name, setName] = useState("");
+	const [email, setEmail] = useState("");
+	const [phone, setPhone] = useState("");
+	const [inquiry, setInquiry] = useState("");
+	const [message, setMessage] = useState("");
+	const [honeypot, setHoneypot] = useState("");
+	const [status, setStatus] = useState({ type: "", text: "" });
+	const [sending, setSending] = useState(false);
+
+	const handleSubmit = async (e) => {
+		e.preventDefault();
+		setSending(true);
+		setStatus({ type: "", text: "" });
+
+		const result = await submitContactForm({
+			name,
+			email,
+			phone,
+			inquiry,
+			message,
+			company_website: honeypot,
+		});
+
+		setSending(false);
+		if (result.ok) {
+			setStatus({ type: "success", text: result.message });
+			setName("");
+			setEmail("");
+			setPhone("");
+			setInquiry("");
+			setMessage("");
+			return;
+		}
+		setStatus({ type: "error", text: result.error });
+	};
+
 	return (
 		<section className="tj-contact-section-2 section-bottom-gap">
 			<div className="container">
@@ -12,14 +53,18 @@ const Contact3 = () => {
 							<h3 className="title">
 								Feel free to get in touch or visit our Nairobi office.
 							</h3>
-							<form id="contact-form">
+							<form id="contact-form" onSubmit={handleSubmit} noValidate>
 								<div className="row">
 									<div className="col-sm-6">
 										<div className="form-input">
 											<input
 												type="text"
-												name="cfName"
+												name="name"
 												placeholder="Full Name*"
+												value={name}
+												onChange={(e) => setName(e.target.value)}
+												required
+												autoComplete="name"
 											/>
 										</div>
 									</div>
@@ -27,8 +72,12 @@ const Contact3 = () => {
 										<div className="form-input">
 											<input
 												type="email"
-												name="cfEmail"
+												name="email"
 												placeholder="Email Address*"
+												value={email}
+												onChange={(e) => setEmail(e.target.value)}
+												required
+												autoComplete="email"
 											/>
 										</div>
 									</div>
@@ -36,8 +85,12 @@ const Contact3 = () => {
 										<div className="form-input">
 											<input
 												type="tel"
-												name="cfPhone"
+												name="phone"
 												placeholder="Phone number*"
+												value={phone}
+												onChange={(e) => setPhone(e.target.value)}
+												required
+												autoComplete="tel"
 											/>
 										</div>
 									</div>
@@ -47,28 +100,10 @@ const Contact3 = () => {
 												<div className="tj-select">
 													<ReactNiceSelect
 														selectedIndex={0}
-														options={[
-															{
-																value: "0",
-																optionName: "Your inquiry about",
-															},
-															{
-																value: "1",
-																optionName: "General Information Request",
-															},
-															{
-																value: "2",
-																optionName: "Partner Relations",
-															},
-															{
-																value: "3",
-																optionName: "Careers",
-															},
-															{
-																value: "4",
-																optionName: "Software Licensing",
-															},
-														]}
+														options={CONTACT_INQUIRY_OPTIONS}
+														getSelectedOption={(option) =>
+															setInquiry(option?.optionName || "")
+														}
 													/>
 												</div>
 											</div>
@@ -77,14 +112,51 @@ const Contact3 = () => {
 									<div className="col-sm-12">
 										<div className="form-input message-input">
 											<textarea
-												name="cfMessage"
+												name="message"
 												id="message"
 												placeholder="Type message*"
+												value={message}
+												onChange={(e) => setMessage(e.target.value)}
+												required
 											></textarea>
 										</div>
 									</div>
+									<input
+										type="text"
+										name="company_website"
+										value={honeypot}
+										onChange={(e) => setHoneypot(e.target.value)}
+										tabIndex={-1}
+										autoComplete="off"
+										aria-hidden="true"
+										style={{
+											position: "absolute",
+											left: "-9999px",
+											height: 0,
+											width: 0,
+											opacity: 0,
+										}}
+									/>
+									{status.text ? (
+										<div className="col-sm-12" style={{ marginBottom: "12px" }}>
+											<p
+												role="status"
+												style={{
+													margin: 0,
+													color:
+														status.type === "success" ? "#0a7a3e" : "#b42318",
+												}}
+											>
+												{status.text}
+											</p>
+										</div>
+									) : null}
 									<div className="submit-btn">
-										<ButtonPrimary type={"submit"} text={"Submit Now"} />
+										<ButtonPrimary
+											type={"submit"}
+											text={sending ? "Sending..." : "Submit Now"}
+											disabled={sending}
+										/>
 									</div>
 								</div>
 							</form>

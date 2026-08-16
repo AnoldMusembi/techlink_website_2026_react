@@ -338,15 +338,15 @@
 	{
 		"id": 4,
 		"title": "Designing a Modern Brand Identity for Competitive Edge",
-		"img": "/images/blog/blog-video.webp",
+		"img": "/images/blog/insight-4.webp",
 		"img1": "/images/blog/blog-5.webp",
-		"img2": "/images/blog/h2-blog-1.webp",
-		"img3": "/images/blog/h5-blog-1.webp",
+		"img2": "/images/blog/inline-4a.webp",
+		"img3": "/images/blog/inline-4b.webp",
 		"img4": "/images/blog/blog-thumb-1.webp",
 		"img5": "/images/blog/tj-blog-8.webp",
 		"img6": "/images/blog/tj-blog-1.webp",
-		"detailsImg": "/images/blog/tj-blog-4.webp",
-		"smallImg": "/images/blog/post-1.webp",
+		"detailsImg": "/images/blog/insight-4.webp",
+		"smallImg": "/images/blog/post-4.webp",
 		"desc": "The curve. Whether you're looking to streamline operations, enhance customer experiences, or explore new market opportunities, our tailored solutions are designed to empower your business.",
 		"desc1": "As businesses unlock growth opportunities in the digital age, harnessing the power of cloud computing has become essential. Amazon Web Services (AWS) offers the AWS SaaS Competency Partner program, recognizing companies with exceptional expertise in delivering Software-as-a-Service solutions on the AWS platform.",
 		"desc2": "In this blog, we will delve into the strategies, best practices, and key factors that accelerated our business growth and earned us the prestigious AWS SaaS Competency Partner status.",
@@ -441,20 +441,22 @@
 				"smallImg": "/images/blog/post-2.webp",
 				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage you need to be sure there isn't anything embarrassing hidden in the middle of text. All the"
 			}
-		]
+		],
+		"authorName": "Techlink",
+		"date2": "01 OCT 2025"
 	},
 	{
 		"id": 5,
 		"title": "Proven Lessons for Effective Change Management in Business",
-		"img": "/images/project/project-4.webp",
+		"img": "/images/blog/insight-5.webp",
 		"img1": "/images/blog/blog-thumb-1.webp",
-		"img2": "/images/blog/h2-blog-1.webp",
-		"img3": "/images/blog/h5-blog-2.webp",
+		"img2": "/images/blog/inline-5a.webp",
+		"img3": "/images/blog/inline-5b.webp",
 		"img4": "/images/blog/blog-thumb-1.webp",
 		"img5": "/images/blog/tj-blog-8.webp",
 		"img6": "/images/blog/tj-blog-1.webp",
-		"detailsImg": "/images/blog/tj-blog-5.webp",
-		"smallImg": "/images/blog/post-2.webp",
+		"detailsImg": "/images/blog/insight-5.webp",
+		"smallImg": "/images/blog/post-5.webp",
 		"desc": "The curve. Whether you're looking to streamline operations, enhance customer experiences, or explore new market opportunities, our tailored solutions are designed to empower your business.",
 		"desc1": "As businesses unlock growth opportunities in the digital age, harnessing the power of cloud computing has become essential. Amazon Web Services (AWS) offers the AWS SaaS Competency Partner program, recognizing companies with exceptional expertise in delivering Software-as-a-Service solutions on the AWS platform.",
 		"desc2": "In this blog, we will delve into the strategies, best practices, and key factors that accelerated our business growth and earned us the prestigious AWS SaaS Competency Partner status.",
@@ -549,20 +551,22 @@
 				"smallImg": "/images/blog/post-2.webp",
 				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage you need to be sure there isn't anything embarrassing hidden in the middle of text. All the"
 			}
-		]
+		],
+		"authorName": "Techlink",
+		"date2": "01 NOV 2025"
 	},
 	{
 		"id": 6,
 		"title": "Measuring success key metrics every business track",
-		"img": "/images/project/project-1.webp",
+		"img": "/images/blog/insight-6.webp",
 		"img1": "/images/blog/blog-thumb-1.webp",
-		"img2": "/images/blog/h2-blog-1.webp",
-		"img3": "/images/blog/h5-blog-3.webp",
+		"img2": "/images/blog/inline-6a.webp",
+		"img3": "/images/blog/inline-6b.webp",
 		"img4": "/images/blog/blog-thumb-1.webp",
 		"img5": "/images/blog/tj-blog-8.webp",
 		"img6": "/images/blog/tj-blog-1.webp",
-		"detailsImg": "/images/blog/tj-blog-6.webp",
-		"smallImg": "/images/blog/post-3.webp",
+		"detailsImg": "/images/blog/insight-6.webp",
+		"smallImg": "/images/blog/post-6.webp",
 		"desc": "The curve. Whether you're looking to streamline operations, enhance customer experiences, or explore new market opportunities, our tailored solutions are designed to empower your business.",
 		"desc1": "As businesses unlock growth opportunities in the digital age, harnessing the power of cloud computing has become essential. Amazon Web Services (AWS) offers the AWS SaaS Competency Partner program, recognizing companies with exceptional expertise in delivering Software-as-a-Service solutions on the AWS platform.",
 		"desc2": "In this blog, we will delve into the strategies, best practices, and key factors that accelerated our business growth and earned us the prestigious AWS SaaS Competency Partner status.",
@@ -656,7 +660,9 @@
 				"smallImg": "/images/blog/post-2.webp",
 				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage you need to be sure there isn't anything embarrassing hidden in the middle of text. All the"
 			}
-		]
+		],
+		"authorName": "Techlink",
+		"date2": "01 NOV 2025"
 	},
 	{
 		"id": 7,

@@ -38,6 +38,7 @@ npx --yes serve out
 2. Confirm `.htaccess` was uploaded (it ships from `public/.htaccess`).
 3. Install SSL (cPanel → SSL/TLS Status → AutoSSL or Let’s Encrypt).
 4. After SSL works, you can uncomment the HTTPS rewrite block in `.htaccess`.
+5. Confirm `contact-mail.php` is on the site root (it ships from `public/contact-mail.php`). Contact forms POST here and email **info@techlinklimited.co.ke**. If mail fails, enable PHP `mail()` / SMTP in cPanel (Email → Email Routing / authenticating SMTP).
 
 ## Optional: Node.js app on cPanel
 
