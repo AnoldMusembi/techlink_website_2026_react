@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"authorName": "Operations Lead",
+		"authorDesig": "Nairobi SME",
+		"img": "/images/testimonial/client-1.webp",
+		"desc": "Working with Techlink has been a game-changer for our office. Genuine products, clear advice, and a team that actually follows through on installation and support. We feel like a valued partner, not just another invoice."
+	},
+	{
+		"id": 2,
+		"authorName": "IT Manager",
+		"authorDesig": "Westlands office",
+		"img": "/images/testimonial/client-2.webp",
+		"desc": "The results after partnering with Techlink went beyond what we expected. They understood our network and security needs, recommended the right brands, and stayed with us through go-live. A trusted ICT partner."
+	},
+	{
+		"id": 3,
+		"authorName": "School Administrator",
+		"authorDesig": "Education sector",
+		"img": "/images/testimonial/client-3.webp",
+		"desc": "We have worked with Techlink for years and they keep delivering. Devices, licensing, and support arrive on time, and the team is quick when something breaks. They have become part of how we keep teaching online."
+	},
+	{
+		"id": 4,
+		"authorName": "Finance Director",
+		"authorDesig": "Professional services",
+		"img": "/images/testimonial/client-1.webp",
+		"desc": "Transparent pricing and manufacturer warranties gave us confidence. Techlink helped us refresh laptops and printers without disrupting the business. Professional, practical, and easy to reach."
+	},
+	{
+		"id": 5,
+		"authorName": "Facilities Manager",
+		"authorDesig": "Healthcare clinic",
+		"img": "/images/testimonial/client-2.webp",
+		"desc": "From CCTV and networking to day-to-day IT support, Techlink treats the site as a whole. Their technicians are skilled, and after-sales is friendly. We know who to call and they answer."
+	},
+	{
+		"id": 6,
+		"authorName": "Business Owner",
+		"authorDesig": "Retail & workplace",
+		"img": "/images/testimonial/client-3.webp",
+		"desc": "We needed POS, computers, and a reliable partner for parts and repairs. Techlink supplied genuine kit and set it up properly. They continue to support us whenever we grow or something needs fixing."
+	}
+]

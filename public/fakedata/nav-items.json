@@ -1,0 +1,112 @@
+[
+	{
+		"id": 1,
+		"name": "Home",
+		"path": "/"
+	},
+	{
+		"id": 2,
+		"name": "About us",
+		"path": "/about"
+	},
+	{
+		"id": 3,
+		"name": "Services",
+		"path": "/services",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "ICT Installation",
+				"icon": "tji-service-1",
+				"path": "/services/1"
+			},
+			{
+				"id": 2,
+				"name": "Network Design",
+				"icon": "tji-service-2",
+				"path": "/services/2"
+			},
+			{
+				"id": 3,
+				"name": "Cybersecurity",
+				"icon": "tji-service-3",
+				"path": "/services/3"
+			},
+			{
+				"id": 4,
+				"name": "Cloud Services",
+				"icon": "tji-service-4",
+				"path": "/services/4"
+			},
+			{
+				"id": 5,
+				"name": "IT Support & Maintenance",
+				"icon": "tji-service-5",
+				"path": "/services/5"
+			},
+			{
+				"id": 6,
+				"name": "IT Consulting",
+				"icon": "tji-service-6",
+				"path": "/services/6"
+			},
+			{
+				"id": 7,
+				"name": "System Integration",
+				"icon": "tji-service-1",
+				"path": "/services/7"
+			},
+			{
+				"id": 8,
+				"name": "Datacentre Setup",
+				"icon": "tji-service-2",
+				"path": "/services/8"
+			},
+			{
+				"id": 9,
+				"name": "Training",
+				"icon": "tji-service-3",
+				"path": "/services/9"
+			},
+			{
+				"id": 10,
+				"name": "Project Management",
+				"icon": "tji-service-4",
+				"path": "/services/10"
+			},
+			{
+				"id": 11,
+				"name": "Repair & Recovery",
+				"icon": "tji-service-5",
+				"path": "/services/11"
+			},
+			{
+				"id": 12,
+				"name": "Software Development",
+				"icon": "tji-service-6",
+				"path": "/services/12"
+			},
+			{
+				"id": 13,
+				"name": "Infrastructure Modernization",
+				"icon": "tji-service-1",
+				"path": "/services/13"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Data Center Solutions",
+		"path": "/data-center"
+	},
+	{
+		"id": 5,
+		"name": "Home & Work IT",
+		"path": "/home-work-it"
+	},
+	{
+		"id": 6,
+		"name": "Contact us",
+		"path": "/contact"
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"title": "Computing devices",
+		"desc": "A broad range of computing devices for work, school, and home, sourced from trusted brands with warranties, fast delivery, and optional setup support.",
+		"url": "/home-work-it",
+		"img": "/images/service/offer-1.webp",
+		"iconName": "tji-service-1"
+	},
+	{
+		"id": 2,
+		"title": "Software & licensing",
+		"desc": "Genuine perpetual licenses and subscriptions with clear guidance on editions, compliance, and renewals so you get the right software at the right cost.",
+		"url": "/home-work-it",
+		"img": "/images/service/offer-2.webp",
+		"iconName": "tji-service-2"
+	},
+	{
+		"id": 3,
+		"title": "Enterprise servers & storage",
+		"desc": "Enterprise-grade servers, storage arrays, and backup appliances—sized, configured, and delivered with manufacturer warranties and optional installation.",
+		"url": "/data-center",
+		"img": "/images/service/offer-3.webp",
+		"iconName": "tji-service-3"
+	},
+	{
+		"id": 4,
+		"title": "Network & cyber security",
+		"desc": "Next-gen firewalls, endpoint security, and cloud email protection, bundled with subscriptions and support to keep your environment safe.",
+		"url": "/data-center",
+		"img": "/images/service/offer-4.webp",
+		"iconName": "tji-service-4"
+	},
+	{
+		"id": 5,
+		"title": "Network design & implementation",
+		"desc": "End-to-end design and deployment of secure, efficient, and scalable networks for campus, branch, and cloud connectivity.",
+		"url": "/services/2",
+		"img": "/images/service/offer-5.webp",
+		"iconName": "tji-service-5"
+	},
+	{
+		"id": 6,
+		"title": "Cloud services & migration",
+		"desc": "We help clients move to the cloud smoothly and operate efficiently once they are there, with Microsoft 365, backup, and hybrid integration.",
+		"url": "/services/4",
+		"img": "/images/service/offer-6.webp",
+		"iconName": "tji-service-6"
+	}
+]

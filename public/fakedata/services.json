@@ -1,0 +1,407 @@
+[
+	{
+		"id": 1,
+		"title": "ICT Installation & Configuration",
+		"shortTitle": "ICT Installation",
+		"titleLarge": "Professional setup of hardware, software, and systems from day one",
+		"img": "/images/service/detail-1.webp",
+		"img2": "/images/service/detail-1b.webp",
+		"img3": "/images/service/detail-1c.webp",
+		"img4": "/images/service/h6-service-1.webp",
+		"img5": "/images/service/h9-service-1.webp",
+		"bgImg": "/images/service/detail-1.webp",
+		"bgImg2": "/images/service/h3-service-1.webp",
+		"iconName": "tji-service-1",
+		"svg": "/images/icons/service-1.svg",
+		"desc": "Professional setup of hardware, software, and systems to ensure smooth performance from day one.",
+		"shortDesc": "Workstations, servers, networks, CCTV, and AV installed and configured to spec.",
+		"desc1": "We install and configure the technology your team uses every day so it works together from the start. That includes endpoints, servers, networks, security systems, and meeting-room AV, with baseline hardening and tidy handover.",
+		"desc2": "Our technicians size, mount, cable, and test each environment against your requirements, then document settings so support and growth stay straightforward.",
+		"desc3": "From a single office fit-out to a multi-site rollout, we keep deployments practical, secure, and ready for day-one use.",
+		"totalProject": "Installation",
+		"process": {
+			"title": "What we install",
+			"processItems": [
+				"Devices & Endpoints — workstations, laptops, tablets, printers, and accessories",
+				"Servers & Storage — installation, configuration, and baseline hardening",
+				"Networks & Wi-Fi — switches, routers, access points, and controllers",
+				"Security & Surveillance — CCTV, access control, and alarm systems",
+				"Audio Visual — video conferencing, interactive displays, and room systems"
+			]
+		}
+	},
+	{
+		"id": 2,
+		"title": "Network Design & Implementation",
+		"shortTitle": "Network Design",
+		"titleLarge": "Secure, efficient, and scalable networks from campus to cloud",
+		"img": "/images/service/detail-2.webp",
+		"img2": "/images/service/detail-2b.webp",
+		"img3": "/images/service/detail-2c.webp",
+		"img4": "/images/service/h6-service-2.webp",
+		"img5": "/images/service/h9-service-2.webp",
+		"bgImg": "/images/service/detail-2.webp",
+		"bgImg2": "/images/service/h3-service-2.webp",
+		"iconName": "tji-service-2",
+		"svg": "/images/icons/service-2.svg",
+		"desc": "End-to-end design and deployment of secure, efficient, and scalable networks.",
+		"shortDesc": "LAN, WAN, wireless, SD-WAN, structured cabling, and performance tuning.",
+		"desc1": "We design and deploy networks that stay reliable as you grow—campus, branch, and cloud. Coverage, capacity, and security are planned together so applications perform and users stay connected.",
+		"desc2": "Whether you need a new LAN, outdoor Wi-Fi, SD-WAN across branches, or standards-based cabling, we survey the site, specify the right kit, and implement with clear documentation.",
+		"desc3": "After go-live we tune QoS and monitor performance so the network keeps pace with your workloads.",
+		"totalProject": "Networks",
+		"process": {
+			"title": "Network scope",
+			"processItems": [
+				"LAN & WAN Design — resilient architectures for campus and branch connectivity",
+				"Wireless Networks — indoor and outdoor Wi-Fi with coverage and capacity planning",
+				"SD-WAN Implementation — optimized application performance across branches and cloud",
+				"Structured Cabling — standards-based copper and fiber installations",
+				"Network Optimization — tuning, QoS, and performance improvements"
+			]
+		}
+	},
+	{
+		"id": 3,
+		"title": "Cybersecurity Deployment & Hardening",
+		"shortTitle": "Cybersecurity",
+		"titleLarge": "Layered security controls and best practices for Kenyan businesses",
+		"img": "/images/service/detail-3.webp",
+		"img2": "/images/service/detail-3b.webp",
+		"img3": "/images/service/detail-3c.webp",
+		"img4": "/images/service/h6-service-3.webp",
+		"img5": "/images/service/h9-service-3.webp",
+		"bgImg": "/images/service/detail-3.webp",
+		"bgImg2": "/images/service/h3-service-3.webp",
+		"iconName": "tji-service-3",
+		"svg": "/images/icons/service-3.svg",
+		"desc": "Protect your business with modern, layered security controls and best practices.",
+		"shortDesc": "Firewalls, EDR, MFA, email security, and vulnerability hardening.",
+		"desc1": "We deploy layered security that matches how your people actually work—office, remote, and cloud. Policies, identity, endpoints, and email are treated as one system, not separate products.",
+		"desc2": "From next-generation firewalls and VPNs to EDR, MFA, and anti-phishing, we design, implement, and harden configurations so you are protected without blocking the business.",
+		"desc3": "Regular scans and baselines keep the environment from drifting after go-live.",
+		"totalProject": "Security",
+		"process": {
+			"title": "Security controls",
+			"processItems": [
+				"Firewalls & Gateways — policy design, IPS/IDS, VPNs, and secure remote access",
+				"Endpoint Protection — anti-malware, EDR, and posture management for devices",
+				"Identity & Access — MFA, SSO, PAM, and zero-trust access controls",
+				"Email & Cloud Security — anti-phishing, DLP, and secure collaboration",
+				"Vulnerability Hardening — scans, remediation, and configuration baselines"
+			]
+		}
+	},
+	{
+		"id": 4,
+		"title": "Cloud Services & Migration",
+		"shortTitle": "Cloud Services",
+		"titleLarge": "Move to the cloud smoothly and operate efficiently once you are there",
+		"img": "/images/service/detail-4.webp",
+		"img2": "/images/service/detail-4b.webp",
+		"img3": "/images/service/detail-4c.webp",
+		"img4": "/images/service/h6-service-4.webp",
+		"img5": "/images/service/h9-service-4.webp",
+		"bgImg": "/images/service/detail-4.webp",
+		"bgImg2": "/images/service/h3-service-4.webp",
+		"iconName": "tji-service-4",
+		"svg": "/images/icons/service-4.svg",
+		"desc": "Move to the cloud smoothly and operate efficiently once you are there.",
+		"shortDesc": "Microsoft 365, data migration, cloud backup, hybrid integration, and cost control.",
+		"desc1": "We help you choose the right cloud plans, migrate with minimal downtime, and run Microsoft 365, backup, and hybrid workloads without surprise costs.",
+		"desc2": "Tenant setup, licensing, security, and lifecycle management are handled together so collaboration stays secure and predictable.",
+		"desc3": "After migration we right-size licences and governance so spend stays aligned to actual use.",
+		"totalProject": "Cloud",
+		"process": {
+			"title": "Cloud scope",
+			"processItems": [
+				"Microsoft 365 — tenant setup, licensing, security, and lifecycle management",
+				"Data Migration — email, files, and workloads moved with minimal downtime",
+				"Cloud Backup — policies and tooling for reliable recovery and retention",
+				"Hybrid Integration — connect on-prem systems with cloud apps and services",
+				"Cost Optimization — right-sizing and governance for predictable spending"
+			]
+		}
+	},
+	{
+		"id": 5,
+		"title": "IT Support & Maintenance",
+		"shortTitle": "IT Support",
+		"titleLarge": "Reliable, timely support to keep systems running without interruptions",
+		"img": "/images/service/detail-5.webp",
+		"img2": "/images/service/detail-5b.webp",
+		"img3": "/images/service/detail-5c.webp",
+		"img4": "/images/service/h6-service-5.webp",
+		"img5": "/images/service/h9-service-5.webp",
+		"bgImg": "/images/service/detail-5.webp",
+		"bgImg2": "/images/service/h3-service-5.webp",
+		"iconName": "tji-service-5",
+		"svg": "/images/icons/service-5.svg",
+		"desc": "Reliable, timely support to keep systems running without interruptions.",
+		"shortDesc": "Onsite and remote helpdesk, SLAs, preventive maintenance, and health checks.",
+		"desc1": "When something breaks, you need a team that answers and fixes it. We provide onsite and remote support with clear escalation, plus preventive checks so issues are caught early.",
+		"desc2": "Service contracts can include agreed response and resolution times, periodic health checks, and root-cause work—not just ticket closing.",
+		"desc3": "We support endpoints, networks, servers, and printers so your staff can stay focused on the business.",
+		"totalProject": "Support",
+		"process": {
+			"title": "Support model",
+			"processItems": [
+				"Onsite & Remote Support — helpdesk, field engineers, and escalation paths",
+				"Preventive Maintenance — routine checks that prevent issues before they occur",
+				"Troubleshooting & Diagnostics — root-cause analysis and corrective actions",
+				"Service Contracts & SLAs — response and resolution commitments you can rely on",
+				"Health Checks — periodic assessments of networks, servers, and endpoints"
+			]
+		}
+	},
+	{
+		"id": 6,
+		"title": "IT Consulting & Advisory",
+		"shortTitle": "IT Consulting",
+		"titleLarge": "Guidance on technology decisions for growth, security, and efficiency",
+		"img": "/images/service/detail-6.webp",
+		"img2": "/images/service/detail-6b.webp",
+		"img3": "/images/service/detail-6c.webp",
+		"img4": "/images/service/h6-service-6.webp",
+		"img5": "/images/service/h9-service-6.webp",
+		"bgImg": "/images/service/detail-6.webp",
+		"bgImg2": "/images/service/h3-service-6.webp",
+		"iconName": "tji-service-6",
+		"svg": "/images/icons/service-6.svg",
+		"desc": "Guidance on the best technology decisions for growth, security, and efficiency.",
+		"shortDesc": "ICT roadmaps, assessments, budgeting, governance, and cost optimization.",
+		"desc1": "We help you decide what to buy, what to keep, and what to retire. Advice is tied to your timelines and budget, not a product catalogue.",
+		"desc2": "Current-state reviews, phased roadmaps, and investment priorities give leadership a clear picture of risk and return.",
+		"desc3": "The goal is practical ICT that supports the business without waste.",
+		"totalProject": "Advisory",
+		"process": {
+			"title": "Advisory scope",
+			"processItems": [
+				"ICT Strategy & Roadmaps — plan phased improvements aligned to business goals",
+				"Assessments & Audits — current-state reviews with actionable recommendations",
+				"Budgeting & Governance — prioritize investments and manage risk effectively",
+				"Cost Optimization — eliminate waste and increase return on IT spend"
+			]
+		}
+	},
+	{
+		"id": 7,
+		"title": "System Integration Services",
+		"shortTitle": "System Integration",
+		"titleLarge": "Integrate different technologies into one smooth, unified environment",
+		"img": "/images/service/detail-7.webp",
+		"img2": "/images/service/detail-7b.webp",
+		"img3": "/images/service/detail-7c.webp",
+		"img4": "/images/service/h6-service-1.webp",
+		"img5": "/images/service/h9-service-1.webp",
+		"bgImg": "/images/service/detail-7.webp",
+		"bgImg2": "/images/service/h3-service-1.webp",
+		"iconName": "tji-service-1",
+		"svg": "/images/icons/service-1.svg",
+		"desc": "Integrate different technologies into one smooth, unified environment.",
+		"shortDesc": "Application integration, APIs, multi-vendor alignment, and workflow automation.",
+		"desc1": "Most organisations already run several systems. We connect them so data flows, staff stop re-keying, and vendors do not work in isolation.",
+		"desc2": "APIs, middleware, and workflow automation reduce manual work while keeping each platform within its supported design.",
+		"desc3": "Multi-vendor environments are aligned so upgrades and support remain predictable.",
+		"totalProject": "Integration",
+		"process": {
+			"title": "Integration scope",
+			"processItems": [
+				"Application Integration — connect business apps for seamless data flow",
+				"APIs & Middleware — build reliable bridges between systems and partners",
+				"Multi-Vendor Alignment — make diverse solutions work together reliably",
+				"Workflow Automation — reduce manual tasks and improve consistency"
+			]
+		}
+	},
+	{
+		"id": 8,
+		"title": "Datacentre Setup & Optimization",
+		"shortTitle": "Datacentre Setup",
+		"titleLarge": "Build, expand, or optimize data centre and server-room environments",
+		"img": "/images/service/detail-8.webp",
+		"img2": "/images/service/detail-8b.webp",
+		"img3": "/images/service/detail-8c.webp",
+		"img4": "/images/service/h6-service-2.webp",
+		"img5": "/images/service/h9-service-2.webp",
+		"bgImg": "/images/service/detail-8.webp",
+		"bgImg2": "/images/service/h3-service-2.webp",
+		"iconName": "tji-service-2",
+		"svg": "/images/icons/service-2.svg",
+		"desc": "Full support for building, expanding, or optimizing data centre environments.",
+		"shortDesc": "Server rooms, racks, cooling, power, cabling, and monitoring.",
+		"desc1": "We plan and build server rooms and data centre spaces that stay cool, powered, and manageable. Layout, racks, cabling, and environmental controls are treated as one project.",
+		"desc2": "Whether you are fitting a first server room or expanding an existing hall, we size cooling and power, install racks to best practice, and add monitoring for proactive operations.",
+		"desc3": "For product catalogues and brands, see our Data Center Solutions page.",
+		"totalProject": "Datacentre",
+		"process": {
+			"title": "Datacentre scope",
+			"processItems": [
+				"Server Room Setup — layout, power, cooling, and environmental considerations",
+				"Rack Installation — mounting, cable management, and labeling best practices",
+				"Cooling & Power — right-sized solutions for efficiency and uptime",
+				"Structured Cabling — neat, standards-based implementations for longevity",
+				"Monitoring & Management — telemetry and alerting for proactive operations"
+			]
+		}
+	},
+	{
+		"id": 9,
+		"title": "Training & User Support",
+		"shortTitle": "Training",
+		"titleLarge": "Empower teams to use technology confidently and securely",
+		"img": "/images/service/detail-9.webp",
+		"img2": "/images/service/detail-9b.webp",
+		"img3": "/images/service/detail-9c.webp",
+		"img4": "/images/service/h6-service-3.webp",
+		"img5": "/images/service/h9-service-3.webp",
+		"bgImg": "/images/service/detail-9.webp",
+		"bgImg2": "/images/service/h3-service-3.webp",
+		"iconName": "tji-service-3",
+		"svg": "/images/icons/service-3.svg",
+		"desc": "Empower teams with the knowledge to use technology confidently and securely.",
+		"shortDesc": "End-user and admin training, product demos, and security awareness.",
+		"desc1": "New systems only pay off if people can use them. We train end users and administrators, run product demos, and raise security awareness so risk drops and adoption stays high.",
+		"desc2": "Sessions are practical and tied to the tools you actually run—Microsoft 365, security platforms, and line-of-business apps.",
+		"desc3": "We leave your team able to operate day to day, not dependent on a one-off handover.",
+		"totalProject": "Training",
+		"process": {
+			"title": "Training scope",
+			"processItems": [
+				"End-User Training — productivity tips and best practices",
+				"Admin Training — configuration, policies, and daily operations",
+				"Product Demos — hands-on sessions to evaluate solutions",
+				"Security Awareness — reduce risk through informed user behavior"
+			]
+		}
+	},
+	{
+		"id": 10,
+		"title": "Project Management & Deployment Oversight",
+		"shortTitle": "Project Management",
+		"titleLarge": "ICT projects delivered on time, within budget, and to quality standards",
+		"img": "/images/service/detail-10.webp",
+		"img2": "/images/service/detail-10b.webp",
+		"img3": "/images/service/detail-10c.webp",
+		"img4": "/images/service/h6-service-4.webp",
+		"img5": "/images/service/h9-service-4.webp",
+		"bgImg": "/images/service/detail-10.webp",
+		"bgImg2": "/images/service/h3-service-4.webp",
+		"iconName": "tji-service-4",
+		"svg": "/images/icons/service-4.svg",
+		"desc": "Ensure ICT projects are delivered on time, within budget, and to quality standards.",
+		"shortDesc": "Site surveys, planning, vendor coordination, supervision, and commissioning.",
+		"desc1": "Complex ICT work needs a single owner. We survey sites, plan timelines, coordinate vendors, and supervise implementation through testing and handover.",
+		"desc2": "Documentation, responsibilities, and acceptance criteria are agreed up front so surprises are caught early.",
+		"desc3": "You get a commissioned system, not a pile of untested equipment.",
+		"totalProject": "Projects",
+		"process": {
+			"title": "Delivery steps",
+			"processItems": [
+				"Site Surveys — accurate scoping and risk identification",
+				"Planning & Documentation — clear timelines, responsibilities, and records",
+				"Vendor Coordination — align partners and deliveries to the plan",
+				"Implementation Supervision — hands-on oversight during deployment",
+				"Testing & Commissioning — acceptance criteria met before handover"
+			]
+		}
+	},
+	{
+		"id": 11,
+		"title": "Repair & Technical Recovery Services",
+		"shortTitle": "Repair & Recovery",
+		"titleLarge": "Restore hardware and systems quickly and safely",
+		"img": "/images/service/detail-11.webp",
+		"img2": "/images/service/detail-11b.webp",
+		"img3": "/images/service/detail-11c.webp",
+		"img4": "/images/service/h6-service-5.webp",
+		"img5": "/images/service/h9-service-5.webp",
+		"bgImg": "/images/service/detail-11.webp",
+		"bgImg2": "/images/service/h3-service-5.webp",
+		"iconName": "tji-service-5",
+		"svg": "/images/icons/service-5.svg",
+		"desc": "Skilled technicians to restore hardware and systems quickly and safely.",
+		"shortDesc": "Laptops, desktops, printers, networks, and servers diagnosed and recovered.",
+		"desc1": "When hardware fails, we diagnose first, then repair or recover so you are not replacing what can be saved. PCs, printers, networks, and servers are all in scope.",
+		"desc2": "Root-cause analysis reduces repeat failures. Parts, OS recovery, and calibration are handled by technicians who work on the same brands we supply.",
+		"desc3": "Fast, safe recovery keeps downtime short for offices and sites across Nairobi and beyond.",
+		"totalProject": "Repair",
+		"process": {
+			"title": "Recovery scope",
+			"processItems": [
+				"Laptops & Desktops — hardware repairs, parts replacement, and OS recovery",
+				"Printers & Copiers — servicing, maintenance, and calibration",
+				"Networks — connectivity troubleshooting and fixes",
+				"Servers — recovery, rebuilds, and performance restoration",
+				"Diagnostics — root-cause analysis to prevent repeat issues"
+			]
+		}
+	},
+	{
+		"id": 12,
+		"title": "Software Development",
+		"shortTitle": "Software Development",
+		"titleLarge": "Custom software to automate processes and improve efficiency",
+		"img": "/images/service/detail-12.webp",
+		"img2": "/images/service/detail-12b.webp",
+		"img3": "/images/service/detail-12c.webp",
+		"img4": "/images/service/h6-service-6.webp",
+		"img5": "/images/service/h9-service-6.webp",
+		"bgImg": "/images/service/detail-12.webp",
+		"bgImg2": "/images/service/h3-service-6.webp",
+		"iconName": "tji-service-6",
+		"svg": "/images/icons/service-6.svg",
+		"desc": "Custom software to solve business challenges, automate processes, and improve efficiency.",
+		"shortDesc": "Custom apps, web, mobile, APIs, automation, UI/UX, and ongoing maintenance.",
+		"desc1": "When off-the-shelf software does not fit, we build around your workflows—web, mobile, and internal systems—with APIs so data still moves between tools.",
+		"desc2": "UI/UX, integration, and maintenance are part of the same engagement so the product stays usable after launch.",
+		"desc3": "We focus on practical automation and adoption, not features nobody will use.",
+		"totalProject": "Software",
+		"process": {
+			"title": "Build scope",
+			"processItems": [
+				"Custom Business Applications — tailored systems built around your workflows",
+				"Web Applications — responsive, secure, high-performance solutions",
+				"Mobile Applications — Android and iOS apps for productivity and engagement",
+				"System Integration & APIs — connect apps for seamless data flow",
+				"Workflow Automation — reduce manual work and increase consistency",
+				"Software Maintenance & Support — bug fixes, updates, and enhancements",
+				"UI/UX Design — intuitive interfaces that drive adoption"
+			]
+		}
+	},
+	{
+		"id": 13,
+		"title": "IT Infrastructure Modernization & Optimization",
+		"shortTitle": "Infrastructure Modernization",
+		"titleLarge": "Upgrade and optimize IT so it is faster, safer, and ready to grow",
+		"img": "/images/service/detail-13.webp",
+		"img2": "/images/service/detail-13b.webp",
+		"img3": "/images/service/detail-13c.webp",
+		"img4": "/images/service/h6-service-1.webp",
+		"img5": "/images/service/h9-service-1.webp",
+		"bgImg": "/images/service/detail-13.webp",
+		"bgImg2": "/images/service/h3-service-1.webp",
+		"iconName": "tji-service-1",
+		"svg": "/images/icons/service-1.svg",
+		"desc": "Upgrade and optimize IT environments to be faster, more efficient, and secure, ready for future growth.",
+		"shortDesc": "Assessments, upgrades, virtualization, cloud readiness, zero-trust, and monitoring.",
+		"desc1": "Legacy kit and sprawl slow teams down. We assess gaps, then modernize hardware, software, networks, and security in phases you can fund.",
+		"desc2": "Virtualization, cloud readiness, and zero-trust controls are introduced where they reduce risk and cost—not as slogans.",
+		"desc3": "Monitoring and automation keep the new environment visible so it does not slide back into firefighting.",
+		"totalProject": "Modernization",
+		"process": {
+			"title": "Modernization scope",
+			"processItems": [
+				"Assessment & Gap Analysis — identify bottlenecks, risks, and priorities",
+				"Hardware & Software Upgrades — move from legacy to modern platforms",
+				"Virtualization & Consolidation — improve utilization and simplify management",
+				"Cloud Readiness & Migration — prepare and move workloads to hybrid or cloud",
+				"Network Optimization — enhance speed, stability, and application performance",
+				"Security Hardening & Zero-Trust — modern frameworks to protect users and data",
+				"Automation & Efficiency — automate routine tasks and standardize operations",
+				"Monitoring & Performance — proactive visibility to prevent downtime"
+			]
+		}
+	}
+]

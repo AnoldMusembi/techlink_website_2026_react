@@ -1,0 +1,149 @@
+[
+	{
+		"id": 1,
+		"title": "Computing Devices",
+		"desc": "We offer a broad range of computing devices for work, school, and home. Devices are sourced from trusted brands with warranties, fast delivery, and optional setup support.",
+		"items": [
+			"Laptops and desktops for home, school, and office",
+			"Workstations for design and technical roles",
+			"Optional setup, imaging, and accessory bundles"
+		],
+		"brands": "HP, Dell, Lenovo, and other trusted global brands",
+		"img": "/images/service/service-1.webp"
+	},
+	{
+		"id": 2,
+		"title": "Printers & Office Equipment",
+		"desc": "We offer office and retail equipment to keep operations efficient, complete with consumables, accessories, and after-sales support.",
+		"items": [
+			"Ink & Laser Printers — home, SMB, and enterprise",
+			"Receipt Printers — thermal printers for retail and POS counters",
+			"Label Printers — barcode and label printers for inventory and logistics",
+			"Card Printers — ID card and badge printers",
+			"Scanners — flatbed and sheet-feed for fast digitization",
+			"Shredders — secure document destruction",
+			"Money Counters — high-speed cash handling",
+			"Photocopiers — high-volume copiers/MFPs with managed print options",
+			"Signature Pads — digital signature capture"
+		],
+		"brands": "HP, Epson, Canon, Brother, and related office brands",
+		"img": "/images/service/service-5.webp"
+	},
+	{
+		"id": 3,
+		"title": "Software & Licensing",
+		"desc": "We offer genuine perpetual licenses and subscriptions with clear guidance on editions, compliance, and renewals, so you get the right software at the right cost.",
+		"items": [
+			"Operating Systems — Windows and enterprise-grade Linux",
+			"Office & Productivity — Microsoft 365 and related tools",
+			"Creative & Multimedia — design, video, and content suites",
+			"Communication & Collaboration — messaging, meetings, and teamwork platforms",
+			"Security & Antivirus — endpoint and mail security"
+		],
+		"brands": "Windows 11, Adobe, Corel, Autodesk, Sophos, ESET, Symantec, Norton, Microsoft Copilot",
+		"img": "/images/service/service-4.webp"
+	},
+	{
+		"id": 4,
+		"title": "Business Software Solutions",
+		"desc": "Accounting, analytics, ERP, and document systems to run finance, operations, and reporting.",
+		"items": [
+			"Accounting & Finance — bookkeeping, invoicing, payroll, budgeting, and reporting",
+			"Business Intelligence — dashboards and analytics for decision making",
+			"Project Management — task planning, resource tracking, and workflows",
+			"ERP Systems — finance, HR, inventory, and operations",
+			"Document Management — secure storage, workflows, and compliant sharing"
+		],
+		"brands": "Dynamics 365, QuickBooks, Sage, SAP Business One, Odoo, Zoho, Power BI, Tableau, Tally",
+		"img": "/images/service/service-4.webp"
+	},
+	{
+		"id": 5,
+		"title": "Audio Visual & Collaboration Systems",
+		"desc": "We supply AV solutions for classrooms, meeting rooms, and public spaces, with installation and user training available.",
+		"items": [
+			"Video Conferencing Systems — room kits and peripherals",
+			"Digital Podiums — interactive podiums for training rooms and lecture halls",
+			"Interactive Screens — touch displays for collaborative sessions",
+			"Digital Signage — managed displays for branding and information",
+			"Projectors — short-throw, laser, and high-brightness",
+			"Meeting Room Schedule Displays — door/foyer screens for room booking",
+			"Video Intercom Systems — entry communication with access control",
+			"Digital Kiosks — self-service ordering, ticketing, and information"
+		],
+		"brands": "Leading AV and collaboration brands for rooms and public spaces",
+		"img": "/images/service/service-6.webp"
+	},
+	{
+		"id": 6,
+		"title": "POS Systems",
+		"desc": "Flexible POS systems for retail, hospitality, and services, bundled with printers, scanners, and cash drawers as needed.",
+		"items": [
+			"Desktop POS — countertop terminals for supermarkets and retail floors",
+			"Mobile POS — handheld devices for on-the-go sales and deliveries",
+			"Self-Service Kiosks — touch kiosks for self-checkout and ordering",
+			"Tablet POS — iPad/Android tablet POS for cafés and pop-ups"
+		],
+		"brands": "Sunmi, PAX, Zebra, Honeywell, Posiflex, Epson, HP, Oracle",
+		"img": "/images/industries/banking.webp"
+	},
+	{
+		"id": 7,
+		"title": "Security & Access Control",
+		"desc": "Surveillance and access systems with design, installation, and support to secure people, spaces, and assets.",
+		"items": [
+			"Smart Locks — keyless entry and remote management",
+			"CCTV Systems — high-definition cameras with DVRs/NVRs and remote viewing",
+			"Biometric Access Control — face, fingerprint, and RFID/card-based systems",
+			"Time & Attendance — automated clock-in/out with HR/payroll exports"
+		],
+		"brands": "Hikvision, Dahua, Uniview, ZKTeco, HID, Suprema, Axis, Bosch, Ubiquiti, Sony, D-Link",
+		"img": "/images/industries/healthcare.webp"
+	},
+	{
+		"id": 8,
+		"title": "People Counting & Queue Management",
+		"desc": "Intelligent queue systems to reduce wait times and improve service visibility in banks, hospitals, retail, offices, and public service areas.",
+		"items": [
+			"Ticketing Systems — kiosk-based ticket issuing for orderly queues",
+			"Calling Devices — operator call pads and audio prompts",
+			"Display Screens — digital displays for queue numbers and service info",
+			"People Counting Cameras — foot traffic, occupancy, and real-time analytics"
+		],
+		"brands": "Qmatic, Hikvision, Dahua, QueueBee, Qsys, Wavetec, Atlas Security Systems",
+		"img": "/images/industries/education.webp"
+	},
+	{
+		"id": 9,
+		"title": "Power Protection & Backup Systems",
+		"desc": "Backup power and protection to keep equipment safe and operations running during outages and surges.",
+		"items": [
+			"UPS — line-interactive and online UPS for critical loads",
+			"Backup Generators — standby generators sized for homes, offices, and sites",
+			"Battery Inverter Systems — quiet, efficient backup for homes and SMBs",
+			"Solar Backup Systems — hybrid solar kits with batteries and inverters",
+			"Hybrid Power Systems — integrated grid, inverter, battery, and solar",
+			"Automatic Voltage Stabilizer (AVS) — stabilizes fluctuating mains",
+			"PDU — metered and switched PDUs for racks and rooms"
+		],
+		"brands": "APC by Schneider Electric, Eaton, Vertiv, Luminous, Must, Victron Energy, Delta, Mercury",
+		"img": "/images/service/service-3.webp"
+	},
+	{
+		"id": 10,
+		"title": "Peripherals & Accessories",
+		"desc": "Essential accessories that complete setups, improve usability, and protect devices—with bulk supply and delivery available.",
+		"items": [
+			"Power Accessories — surge protectors, power strips, adapters, and chargers",
+			"PC Accessories — keyboards, mice, webcams, docks, and card readers",
+			"Network Accessories — cables, connectors, adapters, Wi-Fi extenders, and tools",
+			"Cleaning Accessories — screen cleaners, wipes, dust blowers, and kits",
+			"Audio Visual Accessories — HDMI/DP cables, wall brackets, remotes, and converters",
+			"Gaming Accessories — headsets, controllers, mousepads, RGB keyboards",
+			"Storage Accessories — external drives, flash disks, memory cards, SSD boxes",
+			"Protective Accessories — laptop bags, cases, sleeves, screen protectors, locks"
+		],
+		"brands": "Logitech, SanDisk, Kingston, and related accessory brands",
+		"img": "/images/service/service-1.webp"
+	}
+]

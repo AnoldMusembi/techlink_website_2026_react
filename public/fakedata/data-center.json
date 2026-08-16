@@ -1,0 +1,146 @@
+[
+	{
+		"id": 1,
+		"title": "Enterprise Servers & Storage",
+		"desc": "We offer enterprise-grade servers, storage arrays, and backup appliances—sized, configured, and delivered with manufacturer warranties and optional installation.",
+		"items": [
+			"Rack & Tower Servers — high-performance systems for virtualization, databases, and line-of-business apps",
+			"Data Storage Systems (SAN, NAS, Unified) — scalable storage for files, VMs, and backup repositories",
+			"Backup & Recovery Solutions — on-prem and cloud backup appliances for continuity and compliance"
+		],
+		"brands": "HPE, Dell Technologies, Lenovo, QNAP, Synology, Veeam, Hikvision, Uniview, NetApp, Veritas, Commvault, Acronis",
+		"img": "/images/service/service-3.webp"
+	},
+	{
+		"id": 2,
+		"title": "Server Software & Licensing",
+		"desc": "We offer genuine server software licenses and subscriptions—right-sized to your workloads with advice on editions, CALs, and renewals.",
+		"items": [
+			"Server Operating Systems — Windows Server and enterprise Linux distributions",
+			"Database Servers — licensing for SQL Server and popular open-source platforms",
+			"Email Servers — Exchange Server and hosted enterprise mail options",
+			"Collaboration Software — Microsoft 365 and integrated teamwork apps",
+			"Virtualization Software — VM platforms and management tools"
+		],
+		"brands": "Exchange Server, SQL Server, Oracle, SharePoint, Hyper-V, Windows Server, Red Hat, VMware, Veeam, Canonical (Ubuntu), Citrix",
+		"img": "/images/service/service-4.webp"
+	},
+	{
+		"id": 3,
+		"title": "Network & Cyber Security Solutions",
+		"desc": "We offer next-gen firewalls, endpoint security, and cloud email protection, bundled with subscriptions and support to keep your environment safe.",
+		"items": [
+			"Next-Generation Firewalls (NGFW) — deep inspection, IPS, application control, and threat intel subscriptions",
+			"Endpoint & Identity Security — EDR, antivirus, and MFA/zero-trust access for users and servers",
+			"Email & Cloud Security — anti-phishing, sandboxing, and DLP for Microsoft 365 and other platforms",
+			"SIEM — log analytics and correlation for real-time detection",
+			"SASE — cloud-delivered security for remote users and branches"
+		],
+		"brands": "Cisco, Fortinet, Palo Alto Networks, Sophos, Microsoft (Defender/Sentinel), SonicWall, Check Point, Barracuda, Aruba, Juniper, Infoblox, Zscaler, F5, AWS, Entrust",
+		"img": "/images/service/service-2.webp"
+	},
+	{
+		"id": 4,
+		"title": "Enterprise Networks",
+		"desc": "We offer enterprise switches, routers, Wi-Fi, SD-WAN, and management platforms—pre-configured to spec with delivery and optional deployment.",
+		"items": [
+			"Enterprise-Grade Switches & Routers — core and edge networking for secure, high-capacity connectivity",
+			"Wireless Network Devices — access points and controllers for seamless, secure Wi-Fi",
+			"SD-WAN — optimize application performance and connect branches securely",
+			"Network Management Solutions — centralized monitoring, configuration, and assurance tools"
+		],
+		"brands": "Cisco, HPE Aruba, Ubiquiti, MikroTik, Fortinet, Juniper, Arista, Netgear, Dell Technologies, Starlink, Ruckus, Extreme Networks, Linksys, D-Link, TP-Link, Ruijie",
+		"img": "/images/industries/transport.webp"
+	},
+	{
+		"id": 5,
+		"title": "Structured Cabling",
+		"desc": "We offer standards-compliant fiber and copper cabling systems—complete with accessories, panels, and certification where required.",
+		"items": [
+			"Fibre Systems — single-mode and multi-mode backbones for high bandwidth and distance",
+			"Copper Systems — cost-effective horizontal cabling for offices and edge devices"
+		],
+		"brands": "Nexans, Legrand, Schneider Electric, Panduit, Molex, Giganet, Siemon, D-Link, Dahua, Hikvision, Vertiv, R&M",
+		"img": "/images/industries/manufacturing.webp"
+	},
+	{
+		"id": 6,
+		"title": "Cable Routing & Management Systems",
+		"desc": "We offer racks, trunking, trays, and accessories for clean and safe installations—with options for power rails and environmental sensors.",
+		"items": [
+			"Cable Trays — robust pathways for large cable bundles",
+			"Metal & PVC Trunking — protective channels for neat routing",
+			"Server Racks & Cabinets — secure, ventilated enclosures for ICT gear",
+			"Rack Cable Managers — horizontal/vertical organizers for tidy racks",
+			"Cable Organisers — clips, ties, sleeves, and Velcro for neat runs",
+			"Flexible PVC Conduits — flexible protection for dynamic paths",
+			"Spiral Cable Protectors — wrap-around sleeves to prevent abrasion and tangles"
+		],
+		"brands": "APC (Schneider Electric), Vertiv, Rittal, Legrand, Tripp Lite, D-Link, Redstar Africa, Tronic",
+		"img": "/images/service/service-3.webp"
+	},
+	{
+		"id": 7,
+		"title": "Datacenter Floor Solutions",
+		"desc": "We offer raised floors and ESD flooring specified for datacentres, hospitals, technical rooms, and other sensitive spaces.",
+		"items": [
+			"Raised Floor Systems — under-floor space for power, cooling, and structured cabling",
+			"ESD Flooring — anti-static finishes that protect sensitive electronics"
+		],
+		"brands": "Tate, ASM, 3M (ESD), Nora Systems (ESD)",
+		"img": "/images/industries/real-estate.webp"
+	},
+	{
+		"id": 8,
+		"title": "Datacenter Cooling",
+		"desc": "We offer precision cooling for racks and rooms—engineered for efficiency, redundancy, and uptime.",
+		"items": [
+			"Rack Air Cooling — in-row and close-coupled cooling for high-density racks",
+			"Room Air Cooling — precision room cooling with humidity control",
+			"Coolant / Liquid Cooling — high-capacity heat removal for intensive workloads"
+		],
+		"brands": "Vertiv (Liebert), Schneider Electric (APC), Stulz, LG, Samsung, Daikin, Eaton, Honeywell, Huawei",
+		"img": "/images/service/service-3.webp"
+	},
+	{
+		"id": 9,
+		"title": "Fire Protection Systems",
+		"desc": "We offer intelligent fire detection and suppression systems designed for ICT spaces, supplied with control panels and integration options.",
+		"items": [
+			"Fire Alarms — addressable and conventional alarm systems",
+			"Fire Detection Systems — smoke, heat, and aspirating (VESDA-type) detection",
+			"Fire Suppression Systems — clean-agent, gas-based, and water-mist options",
+			"Control Panels — centralized control, monitoring, and reporting"
+		],
+		"brands": "Honeywell, Kidde, Tyco, Siemens, FM200, Eaton, Fike, Shield, Asenware, Global Fire Equipment",
+		"img": "/images/service/service-5.webp"
+	},
+	{
+		"id": 10,
+		"title": "Cloud Computing Services & Cloud Storage",
+		"desc": "We offer cloud subscriptions and storage—helping you choose the right plans for collaboration, hosting, and backup.",
+		"items": [
+			"Cloud Computing Services (IaaS, PaaS) — scalable resources for apps and workloads without on-prem hardware",
+			"Cloud Storage Solutions — secure object/file storage for backup, archive, and sharing"
+		],
+		"brands": "Microsoft Azure, Microsoft 365 (OneDrive/SharePoint), AWS, Oracle Cloud, Google Cloud Platform, IBM Cloud",
+		"img": "/images/service/service-6.webp"
+	},
+	{
+		"id": 11,
+		"title": "Environmental Monitoring & DCIM",
+		"desc": "We offer sensors and DCIM platforms that provide real-time visibility into temperature, humidity, leaks, access, vibration, and power, reducing risk and improving uptime.",
+		"items": [
+			"Temperature & Humidity Sensors — prevent hotspots and condensation with continuous readings",
+			"Water Leak Detection — early alerts for condensate, plumbing, or under-floor leaks",
+			"Smoke & Air Quality Sensors — particulate monitoring that complements fire detection",
+			"Door/Open-Rack Sensors — access and open-panel alerts that impact airflow",
+			"Power & Energy Sensors — per-rack/row power draw and PUE insights with PDUs/UPS",
+			"Vibration & Shock Sensors — protect sensitive racks and storage in active sites",
+			"DCIM Platforms & Dashboards — centralized visibility, alerting, trending, and capacity planning",
+			"Automated Alerts & Escalations — email/SMS/ticketing integration for rapid response"
+		],
+		"brands": "Schneider Electric (EcoStruxure/NetBotz), Vertiv Geist, AKCP, Sunbird DCIM, Raritan",
+		"img": "/images/service/service-2.webp"
+	}
+]
