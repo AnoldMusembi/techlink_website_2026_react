@@ -28,10 +28,10 @@ const pages = [
 		text: "Data centre servers storage backup racks cooling power HPE Dell Lenovo",
 	},
 	{
-		title: "Home & Work IT",
-		path: "/home-work-it",
+		title: "ICT Products",
+		path: "/ict-products",
 		type: "Page",
-		text: "Laptops desktops printers home office workplace computers HP Dell Lenovo",
+		text: "Laptops desktops printers home office workplace computers HP Dell Lenovo ICT products",
 	},
 	{
 		title: "Careers",
@@ -64,8 +64,8 @@ const getSearchIndex = () => {
 
 	const homeWork = (getHomeWorkGroups() || []).map(item => ({
 		title: item.title,
-		path: "/home-work-it",
-		type: "Home & Work IT",
+		path: "/ict-products",
+		type: "ICT Products",
 		text: `${item.title} ${item.desc || ""} ${(item.items || []).join(" ")} ${item.brands || ""}`,
 	}));
 

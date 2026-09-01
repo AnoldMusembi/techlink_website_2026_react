@@ -11,6 +11,9 @@ DirectoryIndex index.html
 	# RewriteCond %{HTTPS} off
 	# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+	# Legacy URL → ICT Products
+	RewriteRule ^home-work-it/?$ /ict-products/ [R=301,L]
+
 	# Existing files/dirs
 	RewriteCond %{REQUEST_FILENAME} -f [OR]
 	RewriteCond %{REQUEST_FILENAME} -d

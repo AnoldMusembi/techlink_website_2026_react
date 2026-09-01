@@ -10,6 +10,16 @@
 		"path": "/about"
 	},
 	{
+		"id": 5,
+		"name": "ICT Products",
+		"path": "/ict-products"
+	},
+	{
+		"id": 4,
+		"name": "Data Center Solutions",
+		"path": "/data-center"
+	},
+	{
 		"id": 3,
 		"name": "Services",
 		"path": "/services",
@@ -93,16 +103,6 @@
 				"path": "/services/13"
 			}
 		]
-	},
-	{
-		"id": 4,
-		"name": "Data Center Solutions",
-		"path": "/data-center"
-	},
-	{
-		"id": 5,
-		"name": "Home & Work IT",
-		"path": "/home-work-it"
 	},
 	{
 		"id": 6,

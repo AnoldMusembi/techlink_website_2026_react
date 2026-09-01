@@ -14,20 +14,21 @@ import getHomeWorkGroups from "@/libs/getHomeWorkGroups";
 import { pageMetadata } from "@/libs/seo";
 
 export const metadata = pageMetadata({
-	title: "Home & Workplace IT",
+	title: "ICT Products",
 	description:
 		"Laptops, desktops, printers, networking, and office technology for homes and workplaces in Kenya. Genuine products with warranties and optional setup from Techlink Limited.",
-	path: "/home-work-it",
+	path: "/ict-products",
 	keywords: [
 		"buy laptops Kenya",
 		"office computers Nairobi",
 		"printers Kenya",
 		"home office IT",
 		"HP Dell Lenovo Nairobi",
+		"ICT products Kenya",
 	],
 });
 
-export default function HomeWorkIt() {
+export default function IctProducts() {
 	const groups = getHomeWorkGroups();
 	return (
 		<div>
@@ -38,10 +39,7 @@ export default function HomeWorkIt() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner
-							title={"Home & Workplace IT"}
-							text={"Home & Work IT"}
-						/>
+						<HeroInner title={"ICT Products"} text={"ICT Products"} />
 						<PageIntro
 							subtitle="Reliability you can build on"
 							title="Smart tech for home. Powerful tech for"

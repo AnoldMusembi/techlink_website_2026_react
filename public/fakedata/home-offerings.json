@@ -3,7 +3,7 @@
 		"id": 1,
 		"title": "Computing devices",
 		"desc": "A broad range of computing devices for work, school, and home, sourced from trusted brands with warranties, fast delivery, and optional setup support.",
-		"url": "/home-work-it",
+		"url": "/ict-products",
 		"img": "/images/service/offer-1.webp",
 		"iconName": "tji-service-1"
 	},
@@ -11,7 +11,7 @@
 		"id": 2,
 		"title": "Software & licensing",
 		"desc": "Genuine perpetual licenses and subscriptions with clear guidance on editions, compliance, and renewals so you get the right software at the right cost.",
-		"url": "/home-work-it",
+		"url": "/ict-products",
 		"img": "/images/service/offer-2.webp",
 		"iconName": "tji-service-2"
 	},

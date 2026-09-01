@@ -11,7 +11,7 @@ export default function sitemap() {
 		{ path: "/about", priority: 0.8, changeFrequency: "monthly" },
 		{ path: "/services", priority: 0.9, changeFrequency: "weekly" },
 		{ path: "/data-center", priority: 0.8, changeFrequency: "monthly" },
-		{ path: "/home-work-it", priority: 0.8, changeFrequency: "monthly" },
+		{ path: "/ict-products", priority: 0.8, changeFrequency: "monthly" },
 		{ path: "/blogs", priority: 0.6, changeFrequency: "weekly" },
 		{ path: "/careers", priority: 0.5, changeFrequency: "weekly" },
 		{ path: "/contact", priority: 0.7, changeFrequency: "monthly" },
