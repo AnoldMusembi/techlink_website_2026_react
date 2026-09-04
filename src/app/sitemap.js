@@ -1,5 +1,7 @@
 import getALlServices from "@/libs/getALlServices";
 import getBlogs from "@/libs/getBlogs";
+import getDataCenterGroups from "@/libs/getDataCenterGroups";
+import getHomeWorkGroups from "@/libs/getHomeWorkGroups";
 import { siteConfig } from "@/libs/seo";
 
 export const dynamic = "force-static";
@@ -23,13 +25,31 @@ export default function sitemap() {
 		changeFrequency: "monthly",
 	}));
 
+	const ictCategories = (getHomeWorkGroups() || []).map(item => ({
+		path: item.path || `/ict-products/${item.slug}`,
+		priority: 0.65,
+		changeFrequency: "monthly",
+	}));
+
+	const dcCategories = (getDataCenterGroups() || []).map(item => ({
+		path: item.path || `/data-center/${item.slug}`,
+		priority: 0.65,
+		changeFrequency: "monthly",
+	}));
+
 	const blogs = (getBlogs() || []).slice(0, 3).map(item => ({
 		path: `/blogs/${item.id}`,
 		priority: 0.5,
 		changeFrequency: "monthly",
 	}));
 
-	return [...pages, ...services, ...blogs].map(item => ({
+	return [
+		...pages,
+		...services,
+		...ictCategories,
+		...dcCategories,
+		...blogs,
+	].map(item => ({
 		url: `${siteConfig.url}${item.path}`,
 		lastModified: now,
 		changeFrequency: item.changeFrequency,

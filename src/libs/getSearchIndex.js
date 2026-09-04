@@ -55,18 +55,23 @@ const getSearchIndex = () => {
 		text: `${item.title} ${item.shortDesc || ""} ${item.desc || ""} ${item.desc1 || ""}`,
 	}));
 
+	const brandText = brands =>
+		Array.isArray(brands)
+			? brands.map(b => (typeof b === "string" ? b : b.name)).join(" ")
+			: brands || "";
+
 	const dataCenter = (getDataCenterGroups() || []).map(item => ({
 		title: item.title,
-		path: "/data-center",
+		path: item.path || "/data-center",
 		type: "Data Center",
-		text: `${item.title} ${item.desc || ""} ${(item.items || []).join(" ")} ${item.brands || ""}`,
+		text: `${item.title} ${item.desc || ""} ${(item.items || []).join(" ")} ${brandText(item.brands)}`,
 	}));
 
 	const homeWork = (getHomeWorkGroups() || []).map(item => ({
 		title: item.title,
-		path: "/ict-products",
+		path: item.path || "/ict-products",
 		type: "ICT Products",
-		text: `${item.title} ${item.desc || ""} ${(item.items || []).join(" ")} ${item.brands || ""}`,
+		text: `${item.title} ${item.desc || ""} ${(item.items || []).join(" ")} ${brandText(item.brands)}`,
 	}));
 
 	return [...pages, ...services, ...dataCenter, ...homeWork];

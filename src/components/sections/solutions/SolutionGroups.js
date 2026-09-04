@@ -1,17 +1,20 @@
+import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import Image from "next/image";
+import Link from "next/link";
+import SolutionBrandLogos, { splitItem } from "./SolutionBrandLogos";
 
-const SolutionGroups = ({ groups = [] }) => {
+const SolutionGroups = ({ groups = [], previewItems = 4 }) => {
 	return (
 		<section className="tj-service-section service-4 solution-groups section-gap">
 			<div className="container">
 				<div className="row row-gap-4">
 					{groups.map((group, idx) => {
-						const brands = group.brands
-							? group.brands
-									.split(",")
-									.map((brand) => brand.trim())
-									.filter(Boolean)
-							: [];
+						const href = group.path || null;
+						const preview = (group.items || []).slice(0, previewItems);
+						const moreCount = Math.max(
+							0,
+							(group.items || []).length - preview.length
+						);
 						return (
 							<div key={group.id || idx} className="col-lg-6">
 								<div
@@ -20,22 +23,35 @@ const SolutionGroups = ({ groups = [] }) => {
 								>
 									{group.img ? (
 										<div className="service-img">
-											<Image
-												src={group.img}
-												alt={group.title}
-												width={640}
-												height={280}
-											/>
+											{href ? (
+												<Link href={href}>
+													<Image
+														src={group.img}
+														alt={group.title}
+														width={640}
+														height={280}
+														unoptimized
+													/>
+												</Link>
+											) : (
+												<Image
+													src={group.img}
+													alt={group.title}
+													width={640}
+													height={280}
+													unoptimized
+												/>
+											)}
 										</div>
-									) : (
-										""
-									)}
+									) : null}
 									<div className="service-content">
-										<h4 className="title">{group.title}</h4>
+										<h4 className="title">
+											{href ? <Link href={href}>{group.title}</Link> : group.title}
+										</h4>
 										<p className="desc">{group.desc}</p>
-										{group.items?.length ? (
+										{preview.length ? (
 											<ul className="solution-list">
-												{group.items.map((item, itemIdx) => {
+												{preview.map((item, itemIdx) => {
 													const { label, detail } = splitItem(item);
 													return (
 														<li key={itemIdx}>
@@ -54,25 +70,19 @@ const SolutionGroups = ({ groups = [] }) => {
 													);
 												})}
 											</ul>
-										) : (
-											""
-										)}
-										{brands.length ? (
-											<div className="solution-brands">
-												<span className="solution-brands-label">
-													Brands we supply
-												</span>
-												<div className="solution-brand-tags">
-													{brands.map((brand) => (
-														<span key={brand} className="solution-brand-tag">
-															{brand}
-														</span>
-													))}
-												</div>
+										) : null}
+										{moreCount > 0 ? (
+											<p className="solution-more-count">
+												+{moreCount} more product
+												{moreCount === 1 ? "" : "s"}
+											</p>
+										) : null}
+										<SolutionBrandLogos brands={group.brands} compact />
+										{href ? (
+											<div className="solution-read-more">
+												<ButtonPrimary text="Read more" url={href} />
 											</div>
-										) : (
-											""
-										)}
+										) : null}
 									</div>
 								</div>
 							</div>
@@ -82,19 +92,6 @@ const SolutionGroups = ({ groups = [] }) => {
 			</div>
 		</section>
 	);
-};
-
-const splitItem = (item) => {
-	const separator = item.includes(" — ")
-		? " — "
-		: item.includes(" - ")
-			? " - "
-			: null;
-	if (!separator) {
-		return { label: item, detail: "" };
-	}
-	const [label, ...rest] = item.split(separator);
-	return { label: label.trim(), detail: rest.join(separator).trim() };
 };
 
 export default SolutionGroups;

@@ -8,8 +8,23 @@
 			"Workstations for design and technical roles",
 			"Optional setup, imaging, and accessory bundles"
 		],
-		"brands": "HP, Dell, Lenovo, and other trusted global brands",
-		"img": "/images/service/service-1.webp"
+		"brands": [
+			{
+				"name": "HP",
+				"logo": "/images/brands/hp.webp"
+			},
+			{
+				"name": "Dell",
+				"logo": "/images/brands/dell.webp"
+			},
+			{
+				"name": "Lenovo",
+				"logo": "/images/brands/lenovo.webp"
+			}
+		],
+		"img": "/images/ict-products/computing-devices.webp",
+		"slug": "computing-devices",
+		"path": "/ict-products/computing-devices"
 	},
 	{
 		"id": 2,
@@ -26,8 +41,27 @@
 			"Photocopiers — high-volume copiers/MFPs with managed print options",
 			"Signature Pads — digital signature capture"
 		],
-		"brands": "HP, Epson, Canon, Brother, and related office brands",
-		"img": "/images/service/service-5.webp"
+		"brands": [
+			{
+				"name": "HP",
+				"logo": "/images/brands/hp.webp"
+			},
+			{
+				"name": "Epson",
+				"logo": "/images/brands/epson.webp"
+			},
+			{
+				"name": "Canon",
+				"logo": "/images/brands/canon.webp"
+			},
+			{
+				"name": "Brother",
+				"logo": "/images/brands/brother.webp"
+			}
+		],
+		"img": "/images/ict-products/printers-and-office-equipment.webp",
+		"slug": "printers-and-office-equipment",
+		"path": "/ict-products/printers-and-office-equipment"
 	},
 	{
 		"id": 3,
@@ -40,8 +74,47 @@
 			"Communication & Collaboration — messaging, meetings, and teamwork platforms",
 			"Security & Antivirus — endpoint and mail security"
 		],
-		"brands": "Windows 11, Adobe, Corel, Autodesk, Sophos, ESET, Symantec, Norton, Microsoft Copilot",
-		"img": "/images/service/service-4.webp"
+		"brands": [
+			{
+				"name": "Windows 11",
+				"logo": "/images/brands/microsoft.webp"
+			},
+			{
+				"name": "Adobe",
+				"logo": "/images/brands/adobe.webp"
+			},
+			{
+				"name": "Corel",
+				"logo": "/images/brands/corel.webp"
+			},
+			{
+				"name": "Autodesk",
+				"logo": "/images/brands/autodesk.webp"
+			},
+			{
+				"name": "Sophos",
+				"logo": "/images/brands/sophos.webp"
+			},
+			{
+				"name": "ESET",
+				"logo": "/images/brands/eset.webp"
+			},
+			{
+				"name": "Symantec",
+				"logo": "/images/brands/symantec.webp"
+			},
+			{
+				"name": "Norton",
+				"logo": "/images/brands/norton.webp"
+			},
+			{
+				"name": "Microsoft Copilot",
+				"logo": "/images/brands/microsoft.webp"
+			}
+		],
+		"img": "/images/ict-products/software-and-licensing.webp",
+		"slug": "software-and-licensing",
+		"path": "/ict-products/software-and-licensing"
 	},
 	{
 		"id": 4,
@@ -54,8 +127,47 @@
 			"ERP Systems — finance, HR, inventory, and operations",
 			"Document Management — secure storage, workflows, and compliant sharing"
 		],
-		"brands": "Dynamics 365, QuickBooks, Sage, SAP Business One, Odoo, Zoho, Power BI, Tableau, Tally",
-		"img": "/images/service/service-4.webp"
+		"brands": [
+			{
+				"name": "Dynamics 365",
+				"logo": "/images/brands/microsoft.webp"
+			},
+			{
+				"name": "QuickBooks",
+				"logo": "/images/brands/quickbooks.webp"
+			},
+			{
+				"name": "Sage",
+				"logo": "/images/brands/sage.webp"
+			},
+			{
+				"name": "SAP Business One",
+				"logo": "/images/brands/sap.webp"
+			},
+			{
+				"name": "Odoo",
+				"logo": "/images/brands/odoo.webp"
+			},
+			{
+				"name": "Zoho",
+				"logo": "/images/brands/zoho.webp"
+			},
+			{
+				"name": "Power BI",
+				"logo": "/images/brands/microsoft.webp"
+			},
+			{
+				"name": "Tableau",
+				"logo": "/images/brands/tableau.webp"
+			},
+			{
+				"name": "Tally",
+				"logo": "/images/brands/tally.webp"
+			}
+		],
+		"img": "/images/ict-products/business-software-solutions.webp",
+		"slug": "business-software-solutions",
+		"path": "/ict-products/business-software-solutions"
 	},
 	{
 		"id": 5,
@@ -71,8 +183,31 @@
 			"Video Intercom Systems — entry communication with access control",
 			"Digital Kiosks — self-service ordering, ticketing, and information"
 		],
-		"brands": "Leading AV and collaboration brands for rooms and public spaces",
-		"img": "/images/service/service-6.webp"
+		"brands": [
+			{
+				"name": "Logitech",
+				"logo": "/images/brands/logitech.webp"
+			},
+			{
+				"name": "Samsung",
+				"logo": "/images/brands/samsung.webp"
+			},
+			{
+				"name": "LG",
+				"logo": "/images/brands/lg.webp"
+			},
+			{
+				"name": "Sony",
+				"logo": "/images/brands/sony.webp"
+			},
+			{
+				"name": "Microsoft",
+				"logo": "/images/brands/microsoft.webp"
+			}
+		],
+		"img": "/images/ict-products/audio-visual-and-collaboration-systems.webp",
+		"slug": "audio-visual-and-collaboration-systems",
+		"path": "/ict-products/audio-visual-and-collaboration-systems"
 	},
 	{
 		"id": 6,
@@ -84,8 +219,43 @@
 			"Self-Service Kiosks — touch kiosks for self-checkout and ordering",
 			"Tablet POS — iPad/Android tablet POS for cafés and pop-ups"
 		],
-		"brands": "Sunmi, PAX, Zebra, Honeywell, Posiflex, Epson, HP, Oracle",
-		"img": "/images/industries/banking.webp"
+		"brands": [
+			{
+				"name": "Sunmi",
+				"logo": "/images/brands/sunmi.webp"
+			},
+			{
+				"name": "PAX",
+				"logo": "/images/brands/pax.webp"
+			},
+			{
+				"name": "Zebra",
+				"logo": "/images/brands/zebra.webp"
+			},
+			{
+				"name": "Honeywell",
+				"logo": "/images/brands/honeywell.webp"
+			},
+			{
+				"name": "Posiflex",
+				"logo": "/images/brands/posiflex.webp"
+			},
+			{
+				"name": "Epson",
+				"logo": "/images/brands/epson.webp"
+			},
+			{
+				"name": "HP",
+				"logo": "/images/brands/hp.webp"
+			},
+			{
+				"name": "Oracle",
+				"logo": "/images/brands/oracle.webp"
+			}
+		],
+		"img": "/images/ict-products/pos-systems.webp",
+		"slug": "pos-systems",
+		"path": "/ict-products/pos-systems"
 	},
 	{
 		"id": 7,
@@ -97,8 +267,55 @@
 			"Biometric Access Control — face, fingerprint, and RFID/card-based systems",
 			"Time & Attendance — automated clock-in/out with HR/payroll exports"
 		],
-		"brands": "Hikvision, Dahua, Uniview, ZKTeco, HID, Suprema, Axis, Bosch, Ubiquiti, Sony, D-Link",
-		"img": "/images/industries/healthcare.webp"
+		"brands": [
+			{
+				"name": "Hikvision",
+				"logo": "/images/brands/hikvision.webp"
+			},
+			{
+				"name": "Dahua",
+				"logo": "/images/brands/dahua.webp"
+			},
+			{
+				"name": "Uniview",
+				"logo": "/images/brands/uniview.webp"
+			},
+			{
+				"name": "ZKTeco",
+				"logo": "/images/brands/zkteco.webp"
+			},
+			{
+				"name": "HID",
+				"logo": "/images/brands/hid.webp"
+			},
+			{
+				"name": "Suprema",
+				"logo": "/images/brands/suprema.webp"
+			},
+			{
+				"name": "Axis",
+				"logo": "/images/brands/axis.webp"
+			},
+			{
+				"name": "Bosch",
+				"logo": "/images/brands/bosch.webp"
+			},
+			{
+				"name": "Ubiquiti",
+				"logo": "/images/brands/ubiquiti.webp"
+			},
+			{
+				"name": "Sony",
+				"logo": "/images/brands/sony.webp"
+			},
+			{
+				"name": "D-Link",
+				"logo": "/images/brands/d-link.webp"
+			}
+		],
+		"img": "/images/ict-products/security-and-access-control.webp",
+		"slug": "security-and-access-control",
+		"path": "/ict-products/security-and-access-control"
 	},
 	{
 		"id": 8,
@@ -110,8 +327,39 @@
 			"Display Screens — digital displays for queue numbers and service info",
 			"People Counting Cameras — foot traffic, occupancy, and real-time analytics"
 		],
-		"brands": "Qmatic, Hikvision, Dahua, QueueBee, Qsys, Wavetec, Atlas Security Systems",
-		"img": "/images/industries/education.webp"
+		"brands": [
+			{
+				"name": "Qmatic",
+				"logo": "/images/brands/qmatic.webp"
+			},
+			{
+				"name": "Hikvision",
+				"logo": "/images/brands/hikvision.webp"
+			},
+			{
+				"name": "Dahua",
+				"logo": "/images/brands/dahua.webp"
+			},
+			{
+				"name": "QueueBee",
+				"logo": "/images/brands/queuebee.webp"
+			},
+			{
+				"name": "Qsys",
+				"logo": "/images/brands/qsys.webp"
+			},
+			{
+				"name": "Wavetec",
+				"logo": "/images/brands/wavetec.webp"
+			},
+			{
+				"name": "Atlas Security Systems",
+				"logo": "/images/brands/atlas-security-systems.webp"
+			}
+		],
+		"img": "/images/ict-products/people-counting-and-queue-management.webp",
+		"slug": "people-counting-and-queue-management",
+		"path": "/ict-products/people-counting-and-queue-management"
 	},
 	{
 		"id": 9,
@@ -126,8 +374,43 @@
 			"Automatic Voltage Stabilizer (AVS) — stabilizes fluctuating mains",
 			"PDU — metered and switched PDUs for racks and rooms"
 		],
-		"brands": "APC by Schneider Electric, Eaton, Vertiv, Luminous, Must, Victron Energy, Delta, Mercury",
-		"img": "/images/service/service-3.webp"
+		"brands": [
+			{
+				"name": "APC by Schneider Electric",
+				"logo": "/images/brands/apc.webp"
+			},
+			{
+				"name": "Eaton",
+				"logo": "/images/brands/eaton.webp"
+			},
+			{
+				"name": "Vertiv",
+				"logo": "/images/brands/vertiv.webp"
+			},
+			{
+				"name": "Luminous",
+				"logo": "/images/brands/luminous.webp"
+			},
+			{
+				"name": "Must",
+				"logo": "/images/brands/must.webp"
+			},
+			{
+				"name": "Victron Energy",
+				"logo": "/images/brands/victron-energy.webp"
+			},
+			{
+				"name": "Delta",
+				"logo": "/images/brands/delta.webp"
+			},
+			{
+				"name": "Mercury",
+				"logo": "/images/brands/mercury.webp"
+			}
+		],
+		"img": "/images/ict-products/power-protection-and-backup-systems.webp",
+		"slug": "power-protection-and-backup-systems",
+		"path": "/ict-products/power-protection-and-backup-systems"
 	},
 	{
 		"id": 10,
@@ -143,7 +426,22 @@
 			"Storage Accessories — external drives, flash disks, memory cards, SSD boxes",
 			"Protective Accessories — laptop bags, cases, sleeves, screen protectors, locks"
 		],
-		"brands": "Logitech, SanDisk, Kingston, and related accessory brands",
-		"img": "/images/service/service-1.webp"
+		"brands": [
+			{
+				"name": "Logitech",
+				"logo": "/images/brands/logitech.webp"
+			},
+			{
+				"name": "SanDisk",
+				"logo": "/images/brands/sandisk.webp"
+			},
+			{
+				"name": "Kingston",
+				"logo": "/images/brands/kingston.webp"
+			}
+		],
+		"img": "/images/ict-products/peripherals-and-accessories.webp",
+		"slug": "peripherals-and-accessories",
+		"path": "/ict-products/peripherals-and-accessories"
 	}
 ]

@@ -8,8 +8,59 @@
 			"Data Storage Systems (SAN, NAS, Unified) — scalable storage for files, VMs, and backup repositories",
 			"Backup & Recovery Solutions — on-prem and cloud backup appliances for continuity and compliance"
 		],
-		"brands": "HPE, Dell Technologies, Lenovo, QNAP, Synology, Veeam, Hikvision, Uniview, NetApp, Veritas, Commvault, Acronis",
-		"img": "/images/service/service-3.webp"
+		"brands": [
+			{
+				"name": "HPE",
+				"logo": "/images/brands/hpe.webp"
+			},
+			{
+				"name": "Dell Technologies",
+				"logo": "/images/brands/dell.webp"
+			},
+			{
+				"name": "Lenovo",
+				"logo": "/images/brands/lenovo.webp"
+			},
+			{
+				"name": "QNAP",
+				"logo": "/images/brands/qnap.webp"
+			},
+			{
+				"name": "Synology",
+				"logo": "/images/brands/synology.webp"
+			},
+			{
+				"name": "Veeam",
+				"logo": "/images/brands/veeam.webp"
+			},
+			{
+				"name": "Hikvision",
+				"logo": "/images/brands/hikvision.webp"
+			},
+			{
+				"name": "Uniview",
+				"logo": "/images/brands/uniview.webp"
+			},
+			{
+				"name": "NetApp",
+				"logo": "/images/brands/netapp.webp"
+			},
+			{
+				"name": "Veritas",
+				"logo": "/images/brands/veritas.webp"
+			},
+			{
+				"name": "Commvault",
+				"logo": "/images/brands/commvault.webp"
+			},
+			{
+				"name": "Acronis",
+				"logo": "/images/brands/acronis.webp"
+			}
+		],
+		"img": "/images/data-center/enterprise-servers-and-storage.webp",
+		"slug": "enterprise-servers-and-storage",
+		"path": "/data-center/enterprise-servers-and-storage"
 	},
 	{
 		"id": 2,
@@ -22,8 +73,55 @@
 			"Collaboration Software — Microsoft 365 and integrated teamwork apps",
 			"Virtualization Software — VM platforms and management tools"
 		],
-		"brands": "Exchange Server, SQL Server, Oracle, SharePoint, Hyper-V, Windows Server, Red Hat, VMware, Veeam, Canonical (Ubuntu), Citrix",
-		"img": "/images/service/service-4.webp"
+		"brands": [
+			{
+				"name": "Exchange Server",
+				"logo": "/images/brands/microsoft.webp"
+			},
+			{
+				"name": "SQL Server",
+				"logo": "/images/brands/microsoft.webp"
+			},
+			{
+				"name": "Oracle",
+				"logo": "/images/brands/oracle.webp"
+			},
+			{
+				"name": "SharePoint",
+				"logo": "/images/brands/microsoft.webp"
+			},
+			{
+				"name": "Hyper-V",
+				"logo": "/images/brands/microsoft.webp"
+			},
+			{
+				"name": "Windows Server",
+				"logo": "/images/brands/microsoft.webp"
+			},
+			{
+				"name": "Red Hat",
+				"logo": "/images/brands/red-hat.webp"
+			},
+			{
+				"name": "VMware",
+				"logo": "/images/brands/vmware.webp"
+			},
+			{
+				"name": "Veeam",
+				"logo": "/images/brands/veeam.webp"
+			},
+			{
+				"name": "Canonical",
+				"logo": "/images/brands/canonical.webp"
+			},
+			{
+				"name": "Citrix",
+				"logo": "/images/brands/citrix.webp"
+			}
+		],
+		"img": "/images/data-center/server-software-and-licensing.webp",
+		"slug": "server-software-and-licensing",
+		"path": "/data-center/server-software-and-licensing"
 	},
 	{
 		"id": 3,
@@ -36,8 +134,71 @@
 			"SIEM — log analytics and correlation for real-time detection",
 			"SASE — cloud-delivered security for remote users and branches"
 		],
-		"brands": "Cisco, Fortinet, Palo Alto Networks, Sophos, Microsoft (Defender/Sentinel), SonicWall, Check Point, Barracuda, Aruba, Juniper, Infoblox, Zscaler, F5, AWS, Entrust",
-		"img": "/images/service/service-2.webp"
+		"brands": [
+			{
+				"name": "Cisco",
+				"logo": "/images/brands/cisco.webp"
+			},
+			{
+				"name": "Fortinet",
+				"logo": "/images/brands/fortinet.webp"
+			},
+			{
+				"name": "Palo Alto Networks",
+				"logo": "/images/brands/paloalto.webp"
+			},
+			{
+				"name": "Sophos",
+				"logo": "/images/brands/sophos.webp"
+			},
+			{
+				"name": "Microsoft",
+				"logo": "/images/brands/microsoft.webp"
+			},
+			{
+				"name": "SonicWall",
+				"logo": "/images/brands/sonicwall.webp"
+			},
+			{
+				"name": "Check Point",
+				"logo": "/images/brands/check-point.webp"
+			},
+			{
+				"name": "Barracuda",
+				"logo": "/images/brands/barracuda.webp"
+			},
+			{
+				"name": "Aruba",
+				"logo": "/images/brands/aruba.webp"
+			},
+			{
+				"name": "Juniper",
+				"logo": "/images/brands/juniper.webp"
+			},
+			{
+				"name": "Infoblox",
+				"logo": "/images/brands/infoblox.webp"
+			},
+			{
+				"name": "Zscaler",
+				"logo": "/images/brands/zscaler.webp"
+			},
+			{
+				"name": "F5",
+				"logo": "/images/brands/f5.webp"
+			},
+			{
+				"name": "AWS",
+				"logo": "/images/brands/aws.webp"
+			},
+			{
+				"name": "Entrust",
+				"logo": "/images/brands/entrust.webp"
+			}
+		],
+		"img": "/images/data-center/network-and-cyber-security-solutions.webp",
+		"slug": "network-and-cyber-security-solutions",
+		"path": "/data-center/network-and-cyber-security-solutions"
 	},
 	{
 		"id": 4,
@@ -49,8 +210,75 @@
 			"SD-WAN — optimize application performance and connect branches securely",
 			"Network Management Solutions — centralized monitoring, configuration, and assurance tools"
 		],
-		"brands": "Cisco, HPE Aruba, Ubiquiti, MikroTik, Fortinet, Juniper, Arista, Netgear, Dell Technologies, Starlink, Ruckus, Extreme Networks, Linksys, D-Link, TP-Link, Ruijie",
-		"img": "/images/industries/transport.webp"
+		"brands": [
+			{
+				"name": "Cisco",
+				"logo": "/images/brands/cisco.webp"
+			},
+			{
+				"name": "HPE Aruba",
+				"logo": "/images/brands/aruba.webp"
+			},
+			{
+				"name": "Ubiquiti",
+				"logo": "/images/brands/ubiquiti.webp"
+			},
+			{
+				"name": "MikroTik",
+				"logo": "/images/brands/mikrotik.webp"
+			},
+			{
+				"name": "Fortinet",
+				"logo": "/images/brands/fortinet.webp"
+			},
+			{
+				"name": "Juniper",
+				"logo": "/images/brands/juniper.webp"
+			},
+			{
+				"name": "Arista",
+				"logo": "/images/brands/arista.webp"
+			},
+			{
+				"name": "Netgear",
+				"logo": "/images/brands/netgear.webp"
+			},
+			{
+				"name": "Dell Technologies",
+				"logo": "/images/brands/dell.webp"
+			},
+			{
+				"name": "Starlink",
+				"logo": "/images/brands/starlink.webp"
+			},
+			{
+				"name": "Ruckus",
+				"logo": "/images/brands/ruckus.webp"
+			},
+			{
+				"name": "Extreme Networks",
+				"logo": "/images/brands/extreme-networks.webp"
+			},
+			{
+				"name": "Linksys",
+				"logo": "/images/brands/linksys.webp"
+			},
+			{
+				"name": "D-Link",
+				"logo": "/images/brands/d-link.webp"
+			},
+			{
+				"name": "TP-Link",
+				"logo": "/images/brands/tp-link.webp"
+			},
+			{
+				"name": "Ruijie",
+				"logo": "/images/brands/ruijie.webp"
+			}
+		],
+		"img": "/images/data-center/enterprise-networks.webp",
+		"slug": "enterprise-networks",
+		"path": "/data-center/enterprise-networks"
 	},
 	{
 		"id": 5,
@@ -60,8 +288,59 @@
 			"Fibre Systems — single-mode and multi-mode backbones for high bandwidth and distance",
 			"Copper Systems — cost-effective horizontal cabling for offices and edge devices"
 		],
-		"brands": "Nexans, Legrand, Schneider Electric, Panduit, Molex, Giganet, Siemon, D-Link, Dahua, Hikvision, Vertiv, R&M",
-		"img": "/images/industries/manufacturing.webp"
+		"brands": [
+			{
+				"name": "Nexans",
+				"logo": "/images/brands/nexans.webp"
+			},
+			{
+				"name": "Legrand",
+				"logo": "/images/brands/legrand.webp"
+			},
+			{
+				"name": "Schneider Electric",
+				"logo": "/images/brands/schneider-electric.webp"
+			},
+			{
+				"name": "Panduit",
+				"logo": "/images/brands/panduit.webp"
+			},
+			{
+				"name": "Molex",
+				"logo": "/images/brands/molex.webp"
+			},
+			{
+				"name": "Giganet",
+				"logo": "/images/brands/giganet.webp"
+			},
+			{
+				"name": "Siemon",
+				"logo": "/images/brands/siemon.webp"
+			},
+			{
+				"name": "D-Link",
+				"logo": "/images/brands/d-link.webp"
+			},
+			{
+				"name": "Dahua",
+				"logo": "/images/brands/dahua.webp"
+			},
+			{
+				"name": "Hikvision",
+				"logo": "/images/brands/hikvision.webp"
+			},
+			{
+				"name": "Vertiv",
+				"logo": "/images/brands/vertiv.webp"
+			},
+			{
+				"name": "R&M",
+				"logo": "/images/brands/r-m.webp"
+			}
+		],
+		"img": "/images/data-center/structured-cabling.webp",
+		"slug": "structured-cabling",
+		"path": "/data-center/structured-cabling"
 	},
 	{
 		"id": 6,
@@ -76,8 +355,43 @@
 			"Flexible PVC Conduits — flexible protection for dynamic paths",
 			"Spiral Cable Protectors — wrap-around sleeves to prevent abrasion and tangles"
 		],
-		"brands": "APC (Schneider Electric), Vertiv, Rittal, Legrand, Tripp Lite, D-Link, Redstar Africa, Tronic",
-		"img": "/images/service/service-3.webp"
+		"brands": [
+			{
+				"name": "APC",
+				"logo": "/images/brands/apc.webp"
+			},
+			{
+				"name": "Vertiv",
+				"logo": "/images/brands/vertiv.webp"
+			},
+			{
+				"name": "Rittal",
+				"logo": "/images/brands/rittal.webp"
+			},
+			{
+				"name": "Legrand",
+				"logo": "/images/brands/legrand.webp"
+			},
+			{
+				"name": "Tripp Lite",
+				"logo": "/images/brands/tripp-lite.webp"
+			},
+			{
+				"name": "D-Link",
+				"logo": "/images/brands/d-link.webp"
+			},
+			{
+				"name": "Redstar Africa",
+				"logo": "/images/brands/redstar-africa.webp"
+			},
+			{
+				"name": "Tronic",
+				"logo": "/images/brands/tronic.webp"
+			}
+		],
+		"img": "/images/data-center/cable-routing-and-management-systems.webp",
+		"slug": "cable-routing-and-management-systems",
+		"path": "/data-center/cable-routing-and-management-systems"
 	},
 	{
 		"id": 7,
@@ -87,8 +401,27 @@
 			"Raised Floor Systems — under-floor space for power, cooling, and structured cabling",
 			"ESD Flooring — anti-static finishes that protect sensitive electronics"
 		],
-		"brands": "Tate, ASM, 3M (ESD), Nora Systems (ESD)",
-		"img": "/images/industries/real-estate.webp"
+		"brands": [
+			{
+				"name": "Tate",
+				"logo": "/images/brands/tate.webp"
+			},
+			{
+				"name": "ASM",
+				"logo": "/images/brands/asm.webp"
+			},
+			{
+				"name": "3M",
+				"logo": "/images/brands/3m.webp"
+			},
+			{
+				"name": "Nora Systems",
+				"logo": "/images/brands/nora-systems.webp"
+			}
+		],
+		"img": "/images/data-center/datacenter-floor-solutions.webp",
+		"slug": "datacenter-floor-solutions",
+		"path": "/data-center/datacenter-floor-solutions"
 	},
 	{
 		"id": 8,
@@ -99,8 +432,47 @@
 			"Room Air Cooling — precision room cooling with humidity control",
 			"Coolant / Liquid Cooling — high-capacity heat removal for intensive workloads"
 		],
-		"brands": "Vertiv (Liebert), Schneider Electric (APC), Stulz, LG, Samsung, Daikin, Eaton, Honeywell, Huawei",
-		"img": "/images/service/service-3.webp"
+		"brands": [
+			{
+				"name": "Vertiv",
+				"logo": "/images/brands/vertiv.webp"
+			},
+			{
+				"name": "Schneider Electric",
+				"logo": "/images/brands/schneider-electric.webp"
+			},
+			{
+				"name": "Stulz",
+				"logo": "/images/brands/stulz.webp"
+			},
+			{
+				"name": "LG",
+				"logo": "/images/brands/lg.webp"
+			},
+			{
+				"name": "Samsung",
+				"logo": "/images/brands/samsung.webp"
+			},
+			{
+				"name": "Daikin",
+				"logo": "/images/brands/daikin.webp"
+			},
+			{
+				"name": "Eaton",
+				"logo": "/images/brands/eaton.webp"
+			},
+			{
+				"name": "Honeywell",
+				"logo": "/images/brands/honeywell.webp"
+			},
+			{
+				"name": "Huawei",
+				"logo": "/images/brands/huawei.webp"
+			}
+		],
+		"img": "/images/data-center/datacenter-cooling.webp",
+		"slug": "datacenter-cooling",
+		"path": "/data-center/datacenter-cooling"
 	},
 	{
 		"id": 9,
@@ -112,8 +484,51 @@
 			"Fire Suppression Systems — clean-agent, gas-based, and water-mist options",
 			"Control Panels — centralized control, monitoring, and reporting"
 		],
-		"brands": "Honeywell, Kidde, Tyco, Siemens, FM200, Eaton, Fike, Shield, Asenware, Global Fire Equipment",
-		"img": "/images/service/service-5.webp"
+		"brands": [
+			{
+				"name": "Honeywell",
+				"logo": "/images/brands/honeywell.webp"
+			},
+			{
+				"name": "Kidde",
+				"logo": "/images/brands/kidde.webp"
+			},
+			{
+				"name": "Tyco",
+				"logo": "/images/brands/tyco.webp"
+			},
+			{
+				"name": "Siemens",
+				"logo": "/images/brands/siemens.webp"
+			},
+			{
+				"name": "FM200",
+				"logo": "/images/brands/fm200.webp"
+			},
+			{
+				"name": "Eaton",
+				"logo": "/images/brands/eaton.webp"
+			},
+			{
+				"name": "Fike",
+				"logo": "/images/brands/fike.webp"
+			},
+			{
+				"name": "Shield",
+				"logo": "/images/brands/shield.webp"
+			},
+			{
+				"name": "Asenware",
+				"logo": "/images/brands/asenware.webp"
+			},
+			{
+				"name": "Global Fire Equipment",
+				"logo": "/images/brands/global-fire-equipment.webp"
+			}
+		],
+		"img": "/images/data-center/fire-protection-systems.webp",
+		"slug": "fire-protection-systems",
+		"path": "/data-center/fire-protection-systems"
 	},
 	{
 		"id": 10,
@@ -123,8 +538,35 @@
 			"Cloud Computing Services (IaaS, PaaS) — scalable resources for apps and workloads without on-prem hardware",
 			"Cloud Storage Solutions — secure object/file storage for backup, archive, and sharing"
 		],
-		"brands": "Microsoft Azure, Microsoft 365 (OneDrive/SharePoint), AWS, Oracle Cloud, Google Cloud Platform, IBM Cloud",
-		"img": "/images/service/service-6.webp"
+		"brands": [
+			{
+				"name": "Microsoft Azure",
+				"logo": "/images/brands/microsoft.webp"
+			},
+			{
+				"name": "Microsoft 365",
+				"logo": "/images/brands/microsoft.webp"
+			},
+			{
+				"name": "AWS",
+				"logo": "/images/brands/aws.webp"
+			},
+			{
+				"name": "Oracle Cloud",
+				"logo": "/images/brands/oracle.webp"
+			},
+			{
+				"name": "Google Cloud Platform",
+				"logo": "/images/brands/google-cloud.webp"
+			},
+			{
+				"name": "IBM Cloud",
+				"logo": "/images/brands/ibm.webp"
+			}
+		],
+		"img": "/images/data-center/cloud-computing-services-and-cloud-storage.webp",
+		"slug": "cloud-computing-services-and-cloud-storage",
+		"path": "/data-center/cloud-computing-services-and-cloud-storage"
 	},
 	{
 		"id": 11,
@@ -140,7 +582,30 @@
 			"DCIM Platforms & Dashboards — centralized visibility, alerting, trending, and capacity planning",
 			"Automated Alerts & Escalations — email/SMS/ticketing integration for rapid response"
 		],
-		"brands": "Schneider Electric (EcoStruxure/NetBotz), Vertiv Geist, AKCP, Sunbird DCIM, Raritan",
-		"img": "/images/service/service-2.webp"
+		"brands": [
+			{
+				"name": "Schneider Electric",
+				"logo": "/images/brands/schneider-electric.webp"
+			},
+			{
+				"name": "Vertiv Geist",
+				"logo": "/images/brands/vertiv.webp"
+			},
+			{
+				"name": "AKCP",
+				"logo": "/images/brands/akcp.webp"
+			},
+			{
+				"name": "Sunbird DCIM",
+				"logo": "/images/brands/sunbird-dcim.webp"
+			},
+			{
+				"name": "Raritan",
+				"logo": "/images/brands/raritan.webp"
+			}
+		],
+		"img": "/images/data-center/environmental-monitoring-and-dcim.webp",
+		"slug": "environmental-monitoring-and-dcim",
+		"path": "/data-center/environmental-monitoring-and-dcim"
 	}
 ]
