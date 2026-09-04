@@ -1,40 +1,11 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import getIndustries from "@/libs/getIndustries";
 import Image from "next/image";
-
-const industries = [
-	{
-		title: "Education",
-		desc: "Campus networks, labs, devices, and licensing that keep teaching and learning online.",
-		img: "/images/industries/education.webp",
-	},
-	{
-		title: "Banking",
-		desc: "Secure infrastructure, endpoints, and data protection for financial operations.",
-		img: "/images/industries/banking.webp",
-	},
-	{
-		title: "Transport",
-		desc: "Connected systems, networking, and support for logistics and fleet teams.",
-		img: "/images/industries/transport.webp",
-	},
-	{
-		title: "Real Estate",
-		desc: "Workplace IT, property networks, CCTV, and access control for sites and offices.",
-		img: "/images/industries/real-estate.webp",
-	},
-	{
-		title: "Healthcare",
-		desc: "Reliable systems and support for clinics, hospitals, and care teams.",
-		img: "/images/industries/healthcare.webp",
-	},
-	{
-		title: "Manufacturing",
-		desc: "Industrial networks, servers, and shop-floor IT that keep production moving.",
-		img: "/images/industries/manufacturing.webp",
-	},
-];
+import Link from "next/link";
 
 const Industries = () => {
+	const industries = getIndustries();
+
 	return (
 		<section className="tj-service-section service-4 industries-section section-gap">
 			<div className="container">
@@ -52,25 +23,30 @@ const Industries = () => {
 				</div>
 				<div className="row row-gap-4">
 					{industries.map((item, idx) => (
-						<div key={idx} className="col-lg-4 col-md-6">
+						<div key={item.slug || idx} className="col-lg-4 col-md-6">
 							<div
 								className="service-item style-1 wow fadeInUp"
 								data-wow-delay={`${0.2 + idx * 0.05}s`}
 							>
 								<div className="service-img">
-									<Image
-										src={item.img}
-										alt={item.title}
-										width={870}
-										height={450}
-									/>
+									<Link href={item.path}>
+										<Image
+											src={item.img}
+											alt={item.title}
+											width={870}
+											height={450}
+											unoptimized
+										/>
+									</Link>
 								</div>
 								<div className="service-content">
-									<h4 className="title">{item.title}</h4>
+									<h4 className="title">
+										<Link href={item.path}>{item.title}</Link>
+									</h4>
 									<p className="desc">{item.desc}</p>
 									<ButtonPrimary
 										text={"Learn More"}
-										url={"/contact"}
+										url={item.path}
 										isTextBtn={true}
 									/>
 								</div>

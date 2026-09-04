@@ -1,0 +1,170 @@
+[
+	{
+		"id": 1,
+		"title": "Education",
+		"slug": "education",
+		"path": "/industries/education",
+		"img": "/images/industries/education.webp",
+		"desc": "Campus networks, labs, devices, and licensing that keep teaching and learning online.",
+		"overview": "Schools, colleges, and universities need reliable connectivity, secure devices, and software that students and staff can count on every day. Techlink Limited supplies and supports ICT for classrooms, labs, libraries, and administration — from network design to device rollout and licensing.",
+		"challenges": [
+			"Keeping many devices and users online across campus",
+			"Managing genuine software licenses for labs and staff",
+			"Securing student and institutional data",
+			"Supporting remote and hybrid learning with stable tools"
+		],
+		"solutions": [
+			"Campus and classroom networking (wired and Wi‑Fi)",
+			"Laptops, desktops, and lab workstations with setup support",
+			"Genuine Microsoft, Adobe, and education software licensing",
+			"Interactive displays, projectors, and AV for lecture halls",
+			"CCTV, access control, and IT support agreements"
+		],
+		"related": [
+			{ "name": "ICT Installation", "path": "/services/1" },
+			{ "name": "Network Design", "path": "/services/2" },
+			{ "name": "ICT Products", "path": "/ict-products" },
+			{ "name": "Training", "path": "/services/9" }
+		]
+	},
+	{
+		"id": 2,
+		"title": "Banking",
+		"slug": "banking",
+		"path": "/industries/banking",
+		"img": "/images/industries/banking.webp",
+		"desc": "Secure infrastructure, endpoints, and data protection for financial operations.",
+		"overview": "Banks and financial institutions demand high uptime, strong cybersecurity, and compliant infrastructure. We help Kenyan financial teams with secure networks, endpoint protection, servers, and backup — so branches and head office stay connected and protected.",
+		"challenges": [
+			"Protecting customer and transaction data",
+			"Keeping branch and HQ systems available",
+			"Meeting audit and compliance expectations",
+			"Scaling IT as digital channels grow"
+		],
+		"solutions": [
+			"Next‑generation firewalls and endpoint security",
+			"Enterprise servers, storage, and backup",
+			"Secure branch connectivity and SD‑WAN options",
+			"Queue management and people‑counting systems",
+			"Managed IT support and infrastructure modernization"
+		],
+		"related": [
+			{ "name": "Cybersecurity", "path": "/services/3" },
+			{ "name": "Data Center Solutions", "path": "/data-center" },
+			{ "name": "Cloud Services", "path": "/services/4" },
+			{ "name": "IT Support", "path": "/services/5" }
+		]
+	},
+	{
+		"id": 3,
+		"title": "Transport",
+		"slug": "transport",
+		"path": "/industries/transport",
+		"img": "/images/industries/transport.webp",
+		"desc": "Connected systems, networking, and support for logistics and fleet teams.",
+		"overview": "Logistics, fleet, and transport operators need systems that stay online across depots, yards, and offices. Techlink delivers networking, rugged devices, CCTV, and support so dispatch, tracking, and operations keep moving.",
+		"challenges": [
+			"Connecting depots, warehouses, and field teams",
+			"Reliable devices for harsh or mobile environments",
+			"Visibility and security at yards and terminals",
+			"Keeping operations running with limited downtime"
+		],
+		"solutions": [
+			"Site and warehouse networking and Wi‑Fi",
+			"Rugged PCs, tablets, and printers for operations",
+			"CCTV and access control for yards and facilities",
+			"Servers, storage, and backup for operations data",
+			"IT support and maintenance agreements"
+		],
+		"related": [
+			{ "name": "Network Design", "path": "/services/2" },
+			{ "name": "Security & Access Control", "path": "/ict-products/security-and-access-control" },
+			{ "name": "IT Support", "path": "/services/5" },
+			{ "name": "System Integration", "path": "/services/7" }
+		]
+	},
+	{
+		"id": 4,
+		"title": "Real Estate",
+		"slug": "real-estate",
+		"path": "/industries/real-estate",
+		"img": "/images/industries/real-estate.webp",
+		"desc": "Workplace IT, property networks, CCTV, and access control for sites and offices.",
+		"overview": "Property developers, facility managers, and estate offices need ICT that makes buildings safer and easier to run. We supply structured cabling, networks, CCTV, access control, and workplace devices for offices, malls, and residential estates.",
+		"challenges": [
+			"Wiring and networking new or refurbished buildings",
+			"Securing tenants, visitors, and assets",
+			"Equipping site offices and common areas",
+			"Coordinating IT across multiple properties"
+		],
+		"solutions": [
+			"Structured cabling and enterprise networking",
+			"CCTV, biometric access, and intercom systems",
+			"Digital signage and meeting-room AV",
+			"Office computing, printers, and POS where needed",
+			"Ongoing support for multi-site portfolios"
+		],
+		"related": [
+			{ "name": "Structured Cabling", "path": "/data-center/structured-cabling" },
+			{ "name": "Security & Access Control", "path": "/ict-products/security-and-access-control" },
+			{ "name": "ICT Installation", "path": "/services/1" },
+			{ "name": "AV & Collaboration", "path": "/ict-products/audio-visual-and-collaboration-systems" }
+		]
+	},
+	{
+		"id": 5,
+		"title": "Healthcare",
+		"slug": "healthcare",
+		"path": "/industries/healthcare",
+		"img": "/images/industries/healthcare.webp",
+		"desc": "Reliable systems and support for clinics, hospitals, and care teams.",
+		"overview": "Clinics and hospitals depend on systems that cannot afford long downtime. Techlink provides secure networks, workstations, backup power, and IT support so clinicians can access records, imaging, and communication tools when they need them.",
+		"challenges": [
+			"Keeping clinical systems available around the clock",
+			"Protecting patient and medical data",
+			"Power and network reliability in critical areas",
+			"Supporting busy wards and outpatient departments"
+		],
+		"solutions": [
+			"Hospital and clinic networking with strong security",
+			"Workstations, printers, and clinical peripherals",
+			"UPS and backup power for critical loads",
+			"Queue management for outpatient and pharmacy areas",
+			"IT support, backup, and recovery planning"
+		],
+		"related": [
+			{ "name": "IT Support", "path": "/services/5" },
+			{ "name": "Power Protection", "path": "/ict-products/power-protection-and-backup-systems" },
+			{ "name": "Cybersecurity", "path": "/services/3" },
+			{ "name": "Queue Management", "path": "/ict-products/people-counting-and-queue-management" }
+		]
+	},
+	{
+		"id": 6,
+		"title": "Manufacturing",
+		"slug": "manufacturing",
+		"path": "/industries/manufacturing",
+		"img": "/images/industries/manufacturing.webp",
+		"desc": "Industrial networks, servers, and shop-floor IT that keep production moving.",
+		"overview": "Manufacturers need plant and office IT that survive real-world conditions and keep production data flowing. We design and supply industrial networking, servers, shop-floor devices, and security so factories and warehouses stay productive.",
+		"challenges": [
+			"Connecting shop floor, warehouse, and office systems",
+			"Protecting OT and IT environments",
+			"Reliable servers and backup for production data",
+			"Minimizing downtime that stops the line"
+		],
+		"solutions": [
+			"Industrial and enterprise networking",
+			"Servers, storage, and backup for plant systems",
+			"Rugged PCs, scanners, and printers for the floor",
+			"CCTV and access control for sites",
+			"IT consulting, integration, and support"
+		],
+		"related": [
+			{ "name": "Enterprise Networks", "path": "/data-center/enterprise-networks" },
+			{ "name": "Enterprise Servers", "path": "/data-center/enterprise-servers-and-storage" },
+			{ "name": "System Integration", "path": "/services/7" },
+			{ "name": "IT Consulting", "path": "/services/6" }
+		]
+	}
+]

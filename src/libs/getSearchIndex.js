@@ -1,6 +1,7 @@
 import getALlServices from "@/libs/getALlServices";
 import getDataCenterGroups from "@/libs/getDataCenterGroups";
 import getHomeWorkGroups from "@/libs/getHomeWorkGroups";
+import getIndustries from "@/libs/getIndustries";
 
 const pages = [
 	{
@@ -74,7 +75,14 @@ const getSearchIndex = () => {
 		text: `${item.title} ${item.desc || ""} ${(item.items || []).join(" ")} ${brandText(item.brands)}`,
 	}));
 
-	return [...pages, ...services, ...dataCenter, ...homeWork];
+	const industries = (getIndustries() || []).map(item => ({
+		title: item.title,
+		path: item.path || `/industries/${item.slug}`,
+		type: "Industry",
+		text: `${item.title} ${item.desc || ""} ${item.overview || ""} ${(item.challenges || []).join(" ")} ${(item.solutions || []).join(" ")}`,
+	}));
+
+	return [...pages, ...services, ...dataCenter, ...homeWork, ...industries];
 };
 
 export const searchSite = query => {
