@@ -3,7 +3,6 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import CareerCard from "@/components/shared/cards/CareerCard";
 import { fetchCareers } from "@/libs/getCareers";
-import { isSanityConfigured } from "@/libs/sanity";
 import { useEffect, useState } from "react";
 
 const Careers1 = () => {
@@ -45,11 +44,6 @@ const Careers1 = () => {
 							<h2 className="sec-title title-anim">
 								Current <span>openings</span>
 							</h2>
-							{isSanityConfigured() ? (
-								<p className="careers-source-note">
-									Listings are managed in Sanity CMS and update when published.
-								</p>
-							) : null}
 						</div>
 					</div>
 				</div>
