@@ -7,7 +7,9 @@
 		"build": "next build",
 		"build:cpanel": "cross-env STATIC_EXPORT=1 next build",
 		"start": "next start",
-		"lint": "echo \"No lint step configured\""
+		"lint": "echo \"No lint step configured\"",
+		"sanity": "npm --prefix studio run dev",
+		"sanity:deploy": "npm --prefix studio run deploy"
 	},
 	"browserslist": [
 		">0.3%",
@@ -16,6 +18,7 @@
 	],
 	"dependencies": {
 		"@gsap/react": "^2.1.2",
+		"@portabletext/react": "^8.0.1",
 		"bootstrap": "^5.3.7",
 		"chart.js": "^4.5.0",
 		"glightbox": "^3.3.1",

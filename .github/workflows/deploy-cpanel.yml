@@ -28,6 +28,10 @@ jobs:
       - name: Build static site for cPanel
         env:
           STATIC_EXPORT: "1"
+          # Baked into the static JS so /careers can fetch openings from Sanity on the live site
+          NEXT_PUBLIC_SANITY_PROJECT_ID: ${{ secrets.NEXT_PUBLIC_SANITY_PROJECT_ID }}
+          NEXT_PUBLIC_SANITY_DATASET: production
+          NEXT_PUBLIC_SANITY_API_VERSION: "2024-01-01"
         run: npm run build
 
       - name: Deploy to cPanel via FTP

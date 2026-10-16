@@ -105,6 +105,11 @@
 		]
 	},
 	{
+		"id": 7,
+		"name": "Careers",
+		"path": "/careers"
+	},
+	{
 		"id": 6,
 		"name": "Contact us",
 		"path": "/contact"

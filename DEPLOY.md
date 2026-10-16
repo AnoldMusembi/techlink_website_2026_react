@@ -13,6 +13,8 @@ This Next.js site builds as a **static export** (`out/`) so it runs on standard 
 | `FTP_USERNAME` | `user@techlinklimited.co.ke` | Full FTP user |
 | `FTP_PASSWORD` | *(your FTP password)* | Prefer a dedicated deploy FTP account |
 | `FTP_SERVER_DIR` | `/public_html/` | Trailing slash. Use `/public_html/subdir/` for a folder |
+| `NEXT_PUBLIC_SANITY_PROJECT_ID` | `44sxzkv6` | Required for live Careers openings from Sanity |
+| `NEXT_PUBLIC_SANITY_DATASET` | `production` | Optional (defaults to `production` if omitted) |
 
 3. Push to `main` (or run **Actions → Deploy to cPanel → Run workflow**)
 
@@ -39,6 +41,7 @@ npx --yes serve out
 3. Install SSL (cPanel → SSL/TLS Status → AutoSSL or Let’s Encrypt).
 4. After SSL works, you can uncomment the HTTPS rewrite block in `.htaccess`.
 5. Confirm `contact-mail.php` is on the site root (it ships from `public/contact-mail.php`). Contact forms POST here and email **info@techlinklimited.co.ke**. If mail fails, enable PHP `mail()` / SMTP in cPanel (Email → Email Routing / authenticating SMTP).
+6. Careers openings are managed in **Sanity CMS** (see `CAREERS-CMS.md`). Set `NEXT_PUBLIC_SANITY_PROJECT_ID` (and dataset) in the build environment if you want the project ID baked into the static JS. CORS on the Sanity project must allow your live domain.
 
 ## Optional: Node.js app on cPanel
 
