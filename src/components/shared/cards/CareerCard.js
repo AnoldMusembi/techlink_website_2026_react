@@ -1,16 +1,12 @@
-import makeWowDelay from "@/libs/makeWowDelay";
 import Link from "next/link";
 
-const CareerCard = ({ careerSingle, idx }) => {
+const CareerCard = ({ careerSingle }) => {
 	const { title, iconName, price, location, duration, category, need, slug, id } =
 		careerSingle || {};
 	const href = `/careers/job/?slug=${encodeURIComponent(slug || id || "")}`;
 
 	return (
-		<div
-			className="tj-careers wow fadeInUp"
-			data-wow-delay={makeWowDelay(idx, 0.1)}
-		>
+		<div className="tj-careers">
 			<div className="tj-careers-icon mb-30">
 				<i className={iconName ? iconName : "tji-strategy"}></i>
 			</div>

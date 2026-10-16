@@ -74,7 +74,7 @@ const Careers1 = () => {
 				) : !items.length ? (
 					<div className="row justify-content-center">
 						<div className="col-xl-8 col-lg-9">
-							<div className="careers-empty wow fadeInUp" data-wow-delay=".2s">
+							<div className="careers-empty">
 								<div className="careers-empty-icon">
 									<i className="tji-user"></i>
 								</div>

@@ -11,4 +11,5 @@ const dataset =
 
 export default defineCliConfig({
 	api: { projectId, dataset },
+	studioHost: "techlink-careers",
 });

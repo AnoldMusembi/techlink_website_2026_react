@@ -34,7 +34,6 @@ export async function sanityFetch(query, params = {}) {
 
 	const res = await fetch(url.toString(), {
 		headers: { Accept: "application/json" },
-		cache: "no-store",
 	});
 
 	if (!res.ok) {
